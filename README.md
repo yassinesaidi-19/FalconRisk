@@ -205,3 +205,13 @@ Built as a portfolio project to demonstrate:
 ## 🛡 License
 
 Open-source for educational and portfolio use.
+
+
+##DashBoard Screenshots:
+<img width="1919" height="926" alt="image" src="https://github.com/user-attachments/assets/c626ef6f-7eae-41e0-8568-3dbdd31f0d8e" />
+<img width="1455" height="669" alt="image" src="https://github.com/user-attachments/assets/3bb34768-881e-4ed9-b232-39e4bac887bf" />
+<img width="1460" height="569" alt="image" src="https://github.com/user-attachments/assets/e5424a43-eca0-4020-8870-3dab4f3ba487" />
+<img width="1466" height="592" alt="image" src="https://github.com/user-attachments/assets/9420423a-f2fd-4090-b83e-8256995a0a4e" />
+
+
+
