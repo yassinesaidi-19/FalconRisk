@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# dbt
+dbt/mena_payments/target/
+dbt/mena_payments/dbt_packages/
+
+# Docker
+pgdata/
+
+# OS
+.DS_Store
+Thumbs.db

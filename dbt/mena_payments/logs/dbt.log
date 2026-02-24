@@ -1,0 +1,2512 @@
+[0m03:08:24.921545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcab80507d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcab7e3f210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcab7e3cdd0>]}
+
+
+============================== 03:08:24.936878 | 66262b9a-e11d-4691-a301-2d54b2bffd2d ==============================
+[0m03:08:24.936878 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:08:24.938947 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/usr/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:08:24.943043 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m03:08:24.946491 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.06371204, "process_user_time": 1.25537, "process_kernel_time": 1.225241, "process_mem_max_rss": "92416", "process_in_blocks": "344", "process_out_blocks": "1128", "command_success": false}
+[0m03:08:24.948523 [debug] [MainThread]: Command `dbt run` failed at 03:08:24.948224 after 0.07 seconds
+[0m03:08:24.950030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcab7e482d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcab7e3f410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcab7e3f5d0>]}
+[0m03:08:24.951466 [debug] [MainThread]: Flushing usage events
+[0m03:08:53.367913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264e87b810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264ebad290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264e87b910>]}
+
+
+============================== 03:08:53.375166 | 9dbd4a4a-f342-4db3-aca5-1200c85b0ab4 ==============================
+[0m03:08:53.375166 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:08:53.376551 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/usr/app', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:08:53.379370 [error] [MainThread]: Encountered an error:
+Runtime Error
+  dbt_project.yml does not parse to a dictionary
+[0m03:08:53.381392 [debug] [MainThread]: Resource report: {"command_name": "test", "command_wall_clock_time": 0.028624626, "process_user_time": 1.084248, "process_kernel_time": 0.401573, "process_mem_max_rss": "92708", "process_out_blocks": "1128", "command_success": false, "process_in_blocks": "0"}
+[0m03:08:53.382594 [debug] [MainThread]: Command `dbt test` failed at 03:08:53.382434 after 0.03 seconds
+[0m03:08:53.383511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264e884050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264e86f7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f26527c0290>]}
+[0m03:08:53.384438 [debug] [MainThread]: Flushing usage events
+[0m03:09:56.504456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c8dbaf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c8fb7c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c8dbaf10>]}
+
+
+============================== 03:09:56.510505 | 131c2a49-b9f7-4406-81be-663e8e0cf2fa ==============================
+[0m03:09:56.510505 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:09:56.511897 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/usr/app', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/usr/app/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:09:56.519041 [error] [MainThread]: Encountered an error:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  The profiles.yml file at /usr/app/profiles.yml is empty
+  
+[0m03:09:56.521008 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.11607041, "process_user_time": 2.331077, "process_kernel_time": 3.239802, "process_mem_max_rss": "92536", "process_in_blocks": "216", "process_out_blocks": "1128", "command_success": false}
+[0m03:09:56.522357 [debug] [MainThread]: Command `dbt run` failed at 03:09:56.522205 after 0.12 seconds
+[0m03:09:56.523218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c8dc0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c8dbaf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85ccd210d0>]}
+[0m03:09:56.524159 [debug] [MainThread]: Flushing usage events
+[0m03:10:59.201168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684bfd6d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684bfd74d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684bfd4050>]}
+
+
+============================== 03:10:59.207672 | 1b428541-ce29-4557-b474-87a6c33329f2 ==============================
+[0m03:10:59.207672 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:10:59.209074 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/usr/app/logs', 'profiles_dir': '/usr/app', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m03:10:59.433473 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1b428541-ce29-4557-b474-87a6c33329f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684c318ed0>]}
+[0m03:10:59.481672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1b428541-ce29-4557-b474-87a6c33329f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684dbe1350>]}
+[0m03:10:59.484705 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:10:59.502808 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:10:59.505840 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m03:10:59.507130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1b428541-ce29-4557-b474-87a6c33329f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684c0264d0>]}
+[0m03:11:00.349090 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.mena_payments.gold
+- models.mena_payments.bronze
+- models.mena_payments.silver
+- models.mena_payments.risk
+[0m03:11:00.355842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1b428541-ce29-4557-b474-87a6c33329f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684a604550>]}
+[0m03:11:00.449870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1b428541-ce29-4557-b474-87a6c33329f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684a4d0790>]}
+[0m03:11:00.451289 [info ] [MainThread]: Found 415 macros
+[0m03:11:00.452562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1b428541-ce29-4557-b474-87a6c33329f2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684a7663d0>]}
+[0m03:11:00.455401 [info ] [MainThread]: 
+[0m03:11:00.457103 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m03:11:00.459317 [debug] [MainThread]: Command end result
+[0m03:11:00.504911 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 1.359887, "process_user_time": 2.173123, "process_kernel_time": 0.737851, "process_mem_max_rss": "101796", "process_in_blocks": "12592", "process_out_blocks": "1176"}
+[0m03:11:00.506659 [debug] [MainThread]: Command `dbt run` succeeded at 03:11:00.506407 after 1.36 seconds
+[0m03:11:00.508237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684fdf4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684ff50250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f684ff51150>]}
+[0m03:11:00.509426 [debug] [MainThread]: Flushing usage events
+[0m03:26:26.691892 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af1b2cd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af202c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af2032d0>]}
+
+
+============================== 03:26:26.699701 | a400da3d-3a31-4a2c-938b-a0d76abf4c32 ==============================
+[0m03:26:26.699701 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:26:26.700953 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/usr/app', 'log_path': '/usr/app/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt ls', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:26:26.891445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a400da3d-3a31-4a2c-938b-a0d76abf4c32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af0e8c50>]}
+[0m03:26:26.931920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a400da3d-3a31-4a2c-938b-a0d76abf4c32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18b0dc5ed0>]}
+[0m03:26:26.935476 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:26:26.950059 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:26:27.173973 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 9 files added, 0 files changed.
+[0m03:26:27.175299 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/risk/risk_explanations.sql
+[0m03:26:27.176336 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/gold/dim_device.sql
+[0m03:26:27.177315 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/gold/fact_payment_attempts.sql
+[0m03:26:27.178129 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/gold/dim_user.sql
+[0m03:26:27.178858 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/risk/risk_scores.sql
+[0m03:26:27.179567 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/gold/dim_date.sql
+[0m03:26:27.180279 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/silver/payment_attempts_clean.sql
+[0m03:26:27.180953 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/gold/dim_merchant.sql
+[0m03:26:27.181700 [debug] [MainThread]: Partial parsing: added file: mena_payments://models/risk/risk_signals.sql
+[0m03:26:27.392042 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mena_payments.bronze
+[0m03:26:27.398998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a400da3d-3a31-4a2c-938b-a0d76abf4c32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af235b50>]}
+[0m03:26:27.532115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a400da3d-3a31-4a2c-938b-a0d76abf4c32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18ac26b250>]}
+[0m03:26:27.533677 [info ] [MainThread]: Found 9 models, 415 macros
+[0m03:26:27.535395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a400da3d-3a31-4a2c-938b-a0d76abf4c32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18ad601a10>]}
+[0m03:26:27.539262 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": true, "command_wall_clock_time": 0.90300554, "process_user_time": 1.579728, "process_kernel_time": 0.764709, "process_mem_max_rss": "106828", "process_in_blocks": "105864", "process_out_blocks": "1176"}
+[0m03:26:27.541194 [debug] [MainThread]: Command `dbt ls` succeeded at 03:26:27.540986 after 0.91 seconds
+[0m03:26:27.542332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af1b3210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18af202550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f18b2fb46d0>]}
+[0m03:26:27.544044 [debug] [MainThread]: Flushing usage events
+[0m03:26:42.058581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c331ec110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c33243a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c332437d0>]}
+
+
+============================== 03:26:42.064408 | 4f987eb3-2030-4fff-b23d-aed43a12ad37 ==============================
+[0m03:26:42.064408 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:26:42.065668 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/usr/app/logs', 'debug': 'False', 'profiles_dir': '/usr/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:26:42.210550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c33107310>]}
+[0m03:26:42.251364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c34e09850>]}
+[0m03:26:42.253821 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:26:42.265743 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:26:42.437588 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m03:26:42.438499 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m03:26:42.443815 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mena_payments.bronze
+[0m03:26:42.463181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c33248910>]}
+[0m03:26:42.545653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c33203a50>]}
+[0m03:26:42.547109 [info ] [MainThread]: Found 9 models, 415 macros
+[0m03:26:42.548488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c3191bf90>]}
+[0m03:26:42.551517 [info ] [MainThread]: 
+[0m03:26:42.553328 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:26:42.558546 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments'
+[0m03:26:42.559505 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments'
+[0m03:26:42.624777 [debug] [ThreadPool]: Using postgres connection "list_mena_payments"
+[0m03:26:42.625197 [debug] [ThreadPool]: Using postgres connection "list_mena_payments"
+[0m03:26:42.626638 [debug] [ThreadPool]: On list_mena_payments: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:26:42.627500 [debug] [ThreadPool]: On list_mena_payments: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:26:42.628253 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:26:42.628917 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:26:42.680972 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.0 seconds
+[0m03:26:42.681445 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.0 seconds
+[0m03:26:42.682946 [debug] [ThreadPool]: On list_mena_payments: Close
+[0m03:26:42.685135 [debug] [ThreadPool]: On list_mena_payments: Close
+[0m03:26:42.688180 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_mena_payments, now create_mena_payments_bronze_gold)
+[0m03:26:42.688796 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_mena_payments, now create_mena_payments_bronze_silver)
+[0m03:26:42.727325 [debug] [ThreadPool]: Creating schema "database: "mena_payments"
+schema: "bronze_gold"
+"
+[0m03:26:42.738228 [debug] [ThreadPool]: Creating schema "database: "mena_payments"
+schema: "bronze_silver"
+"
+[0m03:26:42.746175 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_bronze_gold"
+[0m03:26:42.750643 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_bronze_silver"
+[0m03:26:42.761142 [debug] [ThreadPool]: On create_mena_payments_bronze_gold: BEGIN
+[0m03:26:42.762482 [debug] [ThreadPool]: On create_mena_payments_bronze_silver: BEGIN
+[0m03:26:42.764224 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:26:42.765728 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:26:42.774109 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:42.774539 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:42.775920 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_bronze_silver"
+[0m03:26:42.777356 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_bronze_gold"
+[0m03:26:42.778685 [debug] [ThreadPool]: On create_mena_payments_bronze_silver: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "create_mena_payments_bronze_silver"} */
+create schema if not exists "bronze_silver"
+[0m03:26:42.779615 [debug] [ThreadPool]: On create_mena_payments_bronze_gold: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "create_mena_payments_bronze_gold"} */
+create schema if not exists "bronze_gold"
+[0m03:26:42.787015 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+[0m03:26:42.787448 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+[0m03:26:42.788711 [debug] [ThreadPool]: On create_mena_payments_bronze_gold: COMMIT
+[0m03:26:42.790141 [debug] [ThreadPool]: On create_mena_payments_bronze_silver: COMMIT
+[0m03:26:42.791007 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_bronze_gold"
+[0m03:26:42.791778 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_bronze_silver"
+[0m03:26:42.792522 [debug] [ThreadPool]: On create_mena_payments_bronze_gold: COMMIT
+[0m03:26:42.793253 [debug] [ThreadPool]: On create_mena_payments_bronze_silver: COMMIT
+[0m03:26:42.795259 [debug] [ThreadPool]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:42.795626 [debug] [ThreadPool]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:42.796212 [debug] [ThreadPool]: On create_mena_payments_bronze_gold: Close
+[0m03:26:42.796978 [debug] [ThreadPool]: On create_mena_payments_bronze_silver: Close
+[0m03:26:42.800193 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_mena_payments_bronze_gold, now list_mena_payments_bronze_gold)
+[0m03:26:42.800869 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_mena_payments_bronze_silver, now list_mena_payments_bronze_silver)
+[0m03:26:42.806589 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_bronze_gold"
+[0m03:26:42.808972 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_bronze_silver"
+[0m03:26:42.810161 [debug] [ThreadPool]: On list_mena_payments_bronze_gold: BEGIN
+[0m03:26:42.811063 [debug] [ThreadPool]: On list_mena_payments_bronze_silver: BEGIN
+[0m03:26:42.811879 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:26:42.812574 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:26:42.818423 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:42.818841 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:42.819754 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_bronze_gold"
+[0m03:26:42.820684 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_bronze_silver"
+[0m03:26:42.821519 [debug] [ThreadPool]: On list_mena_payments_bronze_gold: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_bronze_gold"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'bronze_gold'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'bronze_gold'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'bronze_gold'
+  
+[0m03:26:42.822516 [debug] [ThreadPool]: On list_mena_payments_bronze_silver: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_bronze_silver"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'bronze_silver'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'bronze_silver'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'bronze_silver'
+  
+[0m03:26:42.841965 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m03:26:42.842396 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m03:26:42.844028 [debug] [ThreadPool]: On list_mena_payments_bronze_silver: ROLLBACK
+[0m03:26:42.845617 [debug] [ThreadPool]: On list_mena_payments_bronze_gold: ROLLBACK
+[0m03:26:42.846807 [debug] [ThreadPool]: On list_mena_payments_bronze_silver: Close
+[0m03:26:42.847674 [debug] [ThreadPool]: On list_mena_payments_bronze_gold: Close
+[0m03:26:42.854033 [debug] [MainThread]: Using postgres connection "master"
+[0m03:26:42.855202 [debug] [MainThread]: On master: BEGIN
+[0m03:26:42.856060 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:26:42.861217 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:42.862617 [debug] [MainThread]: Using postgres connection "master"
+[0m03:26:42.863655 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m03:26:42.875533 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:26:42.877619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c34aab950>]}
+[0m03:26:42.878783 [debug] [MainThread]: On master: ROLLBACK
+[0m03:26:42.879934 [debug] [MainThread]: Using postgres connection "master"
+[0m03:26:42.880790 [debug] [MainThread]: On master: BEGIN
+[0m03:26:42.881799 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:42.882557 [debug] [MainThread]: On master: COMMIT
+[0m03:26:42.883270 [debug] [MainThread]: Using postgres connection "master"
+[0m03:26:42.883988 [debug] [MainThread]: On master: COMMIT
+[0m03:26:42.884864 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:42.885574 [debug] [MainThread]: On master: Close
+[0m03:26:42.886479 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:26:42.887534 [info ] [MainThread]: 
+[0m03:26:42.897822 [debug] [Thread-1 (]: Began running node model.mena_payments.dim_device
+[0m03:26:42.898370 [debug] [Thread-2 (]: Began running node model.mena_payments.dim_merchant
+[0m03:26:42.899000 [debug] [Thread-3 (]: Began running node model.mena_payments.dim_user
+[0m03:26:42.899547 [debug] [Thread-4 (]: Began running node model.mena_payments.payment_attempts_clean
+[0m03:26:42.900874 [info ] [Thread-1 (]: 1 of 9 START sql table model bronze_gold.dim_device ............................ [RUN]
+[0m03:26:42.902411 [info ] [Thread-2 (]: 2 of 9 START sql table model bronze_gold.dim_merchant .......................... [RUN]
+[0m03:26:42.904362 [info ] [Thread-3 (]: 3 of 9 START sql table model bronze_gold.dim_user .............................. [RUN]
+[0m03:26:42.906020 [info ] [Thread-4 (]: 4 of 9 START sql table model bronze_silver.payment_attempts_clean .............. [RUN]
+[0m03:26:42.907545 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_mena_payments_bronze_gold, now model.mena_payments.dim_device)
+[0m03:26:42.908763 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_mena_payments_bronze_silver, now model.mena_payments.dim_merchant)
+[0m03:26:42.909891 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.mena_payments.dim_user'
+[0m03:26:42.910981 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.mena_payments.payment_attempts_clean'
+[0m03:26:42.911975 [debug] [Thread-1 (]: Began compiling node model.mena_payments.dim_device
+[0m03:26:42.913872 [debug] [Thread-2 (]: Began compiling node model.mena_payments.dim_merchant
+[0m03:26:42.915011 [debug] [Thread-3 (]: Began compiling node model.mena_payments.dim_user
+[0m03:26:42.915907 [debug] [Thread-4 (]: Began compiling node model.mena_payments.payment_attempts_clean
+[0m03:26:42.924070 [debug] [Thread-1 (]: Writing injected SQL for node "model.mena_payments.dim_device"
+[0m03:26:42.928364 [debug] [Thread-2 (]: Writing injected SQL for node "model.mena_payments.dim_merchant"
+[0m03:26:42.932785 [debug] [Thread-3 (]: Writing injected SQL for node "model.mena_payments.dim_user"
+[0m03:26:42.936268 [debug] [Thread-4 (]: Writing injected SQL for node "model.mena_payments.payment_attempts_clean"
+[0m03:26:42.950930 [debug] [Thread-2 (]: Began executing node model.mena_payments.dim_merchant
+[0m03:26:42.951658 [debug] [Thread-4 (]: Began executing node model.mena_payments.payment_attempts_clean
+[0m03:26:42.965961 [debug] [Thread-1 (]: Began executing node model.mena_payments.dim_device
+[0m03:26:42.977739 [debug] [Thread-3 (]: Began executing node model.mena_payments.dim_user
+[0m03:26:42.998143 [debug] [Thread-4 (]: Writing runtime sql for node "model.mena_payments.payment_attempts_clean"
+[0m03:26:42.999242 [debug] [Thread-2 (]: Writing runtime sql for node "model.mena_payments.dim_merchant"
+[0m03:26:43.002972 [debug] [Thread-1 (]: Writing runtime sql for node "model.mena_payments.dim_device"
+[0m03:26:43.006950 [debug] [Thread-3 (]: Writing runtime sql for node "model.mena_payments.dim_user"
+[0m03:26:43.023974 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:26:43.024839 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:26:43.026089 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: BEGIN
+[0m03:26:43.027246 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:26:43.028238 [debug] [Thread-1 (]: On model.mena_payments.dim_device: BEGIN
+[0m03:26:43.029494 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:26:43.030285 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m03:26:43.031574 [debug] [Thread-3 (]: On model.mena_payments.dim_user: BEGIN
+[0m03:26:43.032689 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:26:43.033954 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: BEGIN
+[0m03:26:43.036534 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:26:43.039361 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:26:43.041888 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:43.044726 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:26:43.045297 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:43.046371 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.payment_attempts_clean"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_silver"."payment_attempts_clean__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+  attempt_id,
+  ts::timestamp as attempt_ts,
+  user_id,
+  device_id,
+  merchant_id,
+  amount::numeric(12,2) as amount,
+  currency,
+  channel,
+  status,
+  failure_reason
+from bronze.payment_attempts
+  );
+  
+[0m03:26:43.047468 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:43.048267 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:26:43.050069 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:43.050785 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:26:43.051810 [debug] [Thread-1 (]: On model.mena_payments.dim_device: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_device"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."dim_device__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  device_id,
+  user_id,
+  device_type,
+  first_seen
+from bronze.devices
+  );
+  
+[0m03:26:43.053567 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:26:43.054633 [debug] [Thread-3 (]: On model.mena_payments.dim_user: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_user"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."dim_user__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  user_id,
+  country,
+  city,
+  persona,
+  signup_date,
+  risk_profile
+from bronze.users
+  );
+  
+[0m03:26:43.056628 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_merchant"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."dim_merchant__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  merchant_id,
+  country,
+  city,
+  category,
+  onboarding_date
+from bronze.merchants
+  );
+  
+[0m03:26:43.073263 [debug] [Thread-2 (]: SQL status: SELECT 800 in 0.0 seconds
+[0m03:26:43.080284 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:26:43.081919 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_merchant"} */
+alter table "mena_payments"."bronze_gold"."dim_merchant__dbt_tmp" rename to "dim_merchant"
+[0m03:26:43.084579 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:43.101339 [debug] [Thread-3 (]: SQL status: SELECT 5000 in 0.0 seconds
+[0m03:26:43.101776 [debug] [Thread-1 (]: SQL status: SELECT 5000 in 0.0 seconds
+[0m03:26:43.104715 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: COMMIT
+[0m03:26:43.110104 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:26:43.114998 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:26:43.116222 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:26:43.117359 [debug] [Thread-3 (]: On model.mena_payments.dim_user: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_user"} */
+alter table "mena_payments"."bronze_gold"."dim_user__dbt_tmp" rename to "dim_user"
+[0m03:26:43.118383 [debug] [Thread-1 (]: On model.mena_payments.dim_device: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_device"} */
+alter table "mena_payments"."bronze_gold"."dim_device__dbt_tmp" rename to "dim_device"
+[0m03:26:43.119502 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: COMMIT
+[0m03:26:43.121005 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:43.121936 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:43.125210 [debug] [Thread-3 (]: On model.mena_payments.dim_user: COMMIT
+[0m03:26:43.128112 [debug] [Thread-1 (]: On model.mena_payments.dim_device: COMMIT
+[0m03:26:43.129534 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:26:43.130537 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:26:43.131388 [debug] [Thread-3 (]: On model.mena_payments.dim_user: COMMIT
+[0m03:26:43.132245 [debug] [Thread-1 (]: On model.mena_payments.dim_device: COMMIT
+[0m03:26:43.136043 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:43.142856 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:43.144515 [debug] [Thread-2 (]: Applying DROP to: "mena_payments"."bronze_gold"."dim_merchant__dbt_backup"
+[0m03:26:43.145307 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:43.148532 [debug] [Thread-3 (]: Applying DROP to: "mena_payments"."bronze_gold"."dim_user__dbt_backup"
+[0m03:26:43.154867 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:26:43.157629 [debug] [Thread-1 (]: Applying DROP to: "mena_payments"."bronze_gold"."dim_device__dbt_backup"
+[0m03:26:43.158910 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:26:43.159906 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_merchant"} */
+drop table if exists "mena_payments"."bronze_gold"."dim_merchant__dbt_backup" cascade
+[0m03:26:43.161543 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:26:43.162659 [debug] [Thread-3 (]: On model.mena_payments.dim_user: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_user"} */
+drop table if exists "mena_payments"."bronze_gold"."dim_user__dbt_backup" cascade
+[0m03:26:43.164301 [debug] [Thread-1 (]: On model.mena_payments.dim_device: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_device"} */
+drop table if exists "mena_payments"."bronze_gold"."dim_device__dbt_backup" cascade
+[0m03:26:43.164872 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:43.166259 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:43.167308 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:43.170415 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: Close
+[0m03:26:43.172765 [debug] [Thread-3 (]: On model.mena_payments.dim_user: Close
+[0m03:26:43.174901 [debug] [Thread-1 (]: On model.mena_payments.dim_device: Close
+[0m03:26:43.177950 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c30339750>]}
+[0m03:26:43.179893 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c31984f10>]}
+[0m03:26:43.181428 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c30259ed0>]}
+[0m03:26:43.183156 [info ] [Thread-2 (]: 2 of 9 OK created sql table model bronze_gold.dim_merchant ..................... [[32mSELECT 800[0m in 0.27s]
+[0m03:26:43.185050 [info ] [Thread-3 (]: 3 of 9 OK created sql table model bronze_gold.dim_user ......................... [[32mSELECT 5000[0m in 0.27s]
+[0m03:26:43.187076 [info ] [Thread-1 (]: 1 of 9 OK created sql table model bronze_gold.dim_device ....................... [[32mSELECT 5000[0m in 0.27s]
+[0m03:26:43.188855 [debug] [Thread-2 (]: Finished running node model.mena_payments.dim_merchant
+[0m03:26:43.190367 [debug] [Thread-3 (]: Finished running node model.mena_payments.dim_user
+[0m03:26:43.191496 [debug] [Thread-1 (]: Finished running node model.mena_payments.dim_device
+[0m03:26:43.791694 [debug] [Thread-4 (]: SQL status: SELECT 200000 in 1.0 seconds
+[0m03:26:43.796068 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:26:43.797489 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.payment_attempts_clean"} */
+alter table "mena_payments"."bronze_silver"."payment_attempts_clean__dbt_tmp" rename to "payment_attempts_clean"
+[0m03:26:43.799052 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:43.801939 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: COMMIT
+[0m03:26:43.803229 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:26:43.804210 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: COMMIT
+[0m03:26:43.832949 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:43.837931 [debug] [Thread-4 (]: Applying DROP to: "mena_payments"."bronze_silver"."payment_attempts_clean__dbt_backup"
+[0m03:26:43.839600 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:26:43.840678 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.payment_attempts_clean"} */
+drop table if exists "mena_payments"."bronze_silver"."payment_attempts_clean__dbt_backup" cascade
+[0m03:26:43.842391 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:43.845681 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: Close
+[0m03:26:43.847613 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c30490a90>]}
+[0m03:26:43.849338 [info ] [Thread-4 (]: 4 of 9 OK created sql table model bronze_silver.payment_attempts_clean ......... [[32mSELECT 200000[0m in 0.94s]
+[0m03:26:43.851397 [debug] [Thread-4 (]: Finished running node model.mena_payments.payment_attempts_clean
+[0m03:26:43.854034 [debug] [Thread-2 (]: Began running node model.mena_payments.dim_date
+[0m03:26:43.854581 [debug] [Thread-3 (]: Began running node model.mena_payments.fact_payment_attempts
+[0m03:26:43.855857 [info ] [Thread-2 (]: 5 of 9 START sql table model bronze_gold.dim_date .............................. [RUN]
+[0m03:26:43.857285 [info ] [Thread-3 (]: 6 of 9 START sql table model bronze_gold.fact_payment_attempts ................. [RUN]
+[0m03:26:43.858865 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.mena_payments.dim_merchant, now model.mena_payments.dim_date)
+[0m03:26:43.860261 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.mena_payments.dim_user, now model.mena_payments.fact_payment_attempts)
+[0m03:26:43.861699 [debug] [Thread-2 (]: Began compiling node model.mena_payments.dim_date
+[0m03:26:43.863327 [debug] [Thread-3 (]: Began compiling node model.mena_payments.fact_payment_attempts
+[0m03:26:43.867514 [debug] [Thread-2 (]: Writing injected SQL for node "model.mena_payments.dim_date"
+[0m03:26:43.872990 [debug] [Thread-3 (]: Writing injected SQL for node "model.mena_payments.fact_payment_attempts"
+[0m03:26:43.879360 [debug] [Thread-3 (]: Began executing node model.mena_payments.fact_payment_attempts
+[0m03:26:43.885066 [debug] [Thread-3 (]: Writing runtime sql for node "model.mena_payments.fact_payment_attempts"
+[0m03:26:43.885701 [debug] [Thread-2 (]: Began executing node model.mena_payments.dim_date
+[0m03:26:43.892308 [debug] [Thread-2 (]: Writing runtime sql for node "model.mena_payments.dim_date"
+[0m03:26:43.899032 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:26:43.900527 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: BEGIN
+[0m03:26:43.902151 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:26:43.903142 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:26:43.904860 [debug] [Thread-2 (]: On model.mena_payments.dim_date: BEGIN
+[0m03:26:43.907321 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:26:43.914842 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:43.915265 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:43.916239 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:26:43.917402 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:26:43.918630 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.fact_payment_attempts"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."fact_payment_attempts__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+  attempt_id,
+  attempt_ts,
+  user_id,
+  device_id,
+  merchant_id,
+  amount,
+  currency,
+  channel,
+  status,
+  failure_reason
+from "mena_payments"."bronze_silver"."payment_attempts_clean"
+  );
+  
+[0m03:26:43.919668 [debug] [Thread-2 (]: On model.mena_payments.dim_date: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_date"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."dim_date__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  attempt_ts::date as date,
+  extract(year from attempt_ts) as year,
+  extract(month from attempt_ts) as month,
+  extract(day from attempt_ts) as day,
+  extract(dow from attempt_ts) as day_of_week
+from "mena_payments"."bronze_silver"."payment_attempts_clean"
+  );
+  
+[0m03:26:44.047870 [debug] [Thread-2 (]: SQL status: SELECT 31 in 0.0 seconds
+[0m03:26:44.053328 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:26:44.054524 [debug] [Thread-2 (]: On model.mena_payments.dim_date: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_date"} */
+alter table "mena_payments"."bronze_gold"."dim_date__dbt_tmp" rename to "dim_date"
+[0m03:26:44.058436 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:44.060443 [debug] [Thread-2 (]: On model.mena_payments.dim_date: COMMIT
+[0m03:26:44.061351 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:26:44.062222 [debug] [Thread-2 (]: On model.mena_payments.dim_date: COMMIT
+[0m03:26:44.080718 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:44.085630 [debug] [Thread-2 (]: Applying DROP to: "mena_payments"."bronze_gold"."dim_date__dbt_backup"
+[0m03:26:44.087636 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:26:44.088918 [debug] [Thread-2 (]: On model.mena_payments.dim_date: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_date"} */
+drop table if exists "mena_payments"."bronze_gold"."dim_date__dbt_backup" cascade
+[0m03:26:44.090516 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:44.093465 [debug] [Thread-2 (]: On model.mena_payments.dim_date: Close
+[0m03:26:44.095361 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c302ae150>]}
+[0m03:26:44.097359 [info ] [Thread-2 (]: 5 of 9 OK created sql table model bronze_gold.dim_date ......................... [[32mSELECT 31[0m in 0.24s]
+[0m03:26:44.099516 [debug] [Thread-2 (]: Finished running node model.mena_payments.dim_date
+[0m03:26:44.161971 [debug] [Thread-3 (]: SQL status: SELECT 200000 in 0.0 seconds
+[0m03:26:44.165900 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:26:44.167061 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.fact_payment_attempts"} */
+alter table "mena_payments"."bronze_gold"."fact_payment_attempts__dbt_tmp" rename to "fact_payment_attempts"
+[0m03:26:44.168381 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:44.170354 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: COMMIT
+[0m03:26:44.171309 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:26:44.172161 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: COMMIT
+[0m03:26:44.193293 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:44.197268 [debug] [Thread-3 (]: Applying DROP to: "mena_payments"."bronze_gold"."fact_payment_attempts__dbt_backup"
+[0m03:26:44.199021 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:26:44.200289 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.fact_payment_attempts"} */
+drop table if exists "mena_payments"."bronze_gold"."fact_payment_attempts__dbt_backup" cascade
+[0m03:26:44.201898 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:44.204155 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: Close
+[0m03:26:44.206090 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c30314950>]}
+[0m03:26:44.207905 [info ] [Thread-3 (]: 6 of 9 OK created sql table model bronze_gold.fact_payment_attempts ............ [[32mSELECT 200000[0m in 0.35s]
+[0m03:26:44.209709 [debug] [Thread-3 (]: Finished running node model.mena_payments.fact_payment_attempts
+[0m03:26:44.211669 [debug] [Thread-4 (]: Began running node model.mena_payments.risk_signals
+[0m03:26:44.212888 [info ] [Thread-4 (]: 7 of 9 START sql table model bronze_gold.risk_signals .......................... [RUN]
+[0m03:26:44.214161 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.mena_payments.payment_attempts_clean, now model.mena_payments.risk_signals)
+[0m03:26:44.215397 [debug] [Thread-4 (]: Began compiling node model.mena_payments.risk_signals
+[0m03:26:44.220887 [debug] [Thread-4 (]: Writing injected SQL for node "model.mena_payments.risk_signals"
+[0m03:26:44.232981 [debug] [Thread-4 (]: Began executing node model.mena_payments.risk_signals
+[0m03:26:44.237437 [debug] [Thread-4 (]: Writing runtime sql for node "model.mena_payments.risk_signals"
+[0m03:26:44.248261 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:26:44.249656 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: BEGIN
+[0m03:26:44.250774 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m03:26:44.258661 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:44.260296 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:26:44.261761 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_signals"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."risk_signals__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with base as (
+  select * from "mena_payments"."bronze_gold"."fact_payment_attempts"
+),
+
+user_avg as (
+  select user_id, avg(amount) as avg_amount
+  from base
+  group by 1
+),
+
+velocity as (
+  select
+    p1.attempt_id,
+    p1.user_id,
+    'velocity_10min' as rule_name,
+    count(p2.attempt_id)::int as txn_count_10min
+  from base p1
+  join base p2
+    on p1.user_id = p2.user_id
+   and p2.attempt_ts between p1.attempt_ts - interval '10 minutes' and p1.attempt_ts
+  group by 1,2
+  having count(p2.attempt_id) > 5
+),
+
+high_amount as (
+  select
+    f.attempt_id,
+    f.user_id,
+    'high_amount_deviation' as rule_name,
+    null::int as txn_count_10min
+  from base f
+  join user_avg u on f.user_id = u.user_id
+  where f.amount > u.avg_amount * 6
+),
+
+new_device_high_amount as (
+  select
+    f.attempt_id,
+    f.user_id,
+    'new_device_high_amount' as rule_name,
+    null::int as txn_count_10min
+  from base f
+  join "mena_payments"."bronze_gold"."dim_device" d on f.device_id = d.device_id
+  where d.first_seen > current_date - interval '7 days'
+    and f.amount > 500
+)
+
+select * from velocity
+union all
+select * from high_amount
+union all
+select * from new_device_high_amount
+  );
+  
+[0m03:26:46.404243 [debug] [Thread-4 (]: SQL status: SELECT 9637 in 2.0 seconds
+[0m03:26:46.409230 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:26:46.410937 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_signals"} */
+alter table "mena_payments"."bronze_gold"."risk_signals__dbt_tmp" rename to "risk_signals"
+[0m03:26:46.413143 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:46.414974 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: COMMIT
+[0m03:26:46.415766 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:26:46.416493 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: COMMIT
+[0m03:26:46.422156 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:46.425001 [debug] [Thread-4 (]: Applying DROP to: "mena_payments"."bronze_gold"."risk_signals__dbt_backup"
+[0m03:26:46.426041 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:26:46.426807 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_signals"} */
+drop table if exists "mena_payments"."bronze_gold"."risk_signals__dbt_backup" cascade
+[0m03:26:46.427884 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:46.429595 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: Close
+[0m03:26:46.430690 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c303697d0>]}
+[0m03:26:46.431762 [info ] [Thread-4 (]: 7 of 9 OK created sql table model bronze_gold.risk_signals ..................... [[32mSELECT 9637[0m in 2.22s]
+[0m03:26:46.433141 [debug] [Thread-4 (]: Finished running node model.mena_payments.risk_signals
+[0m03:26:46.435108 [debug] [Thread-2 (]: Began running node model.mena_payments.risk_explanations
+[0m03:26:46.435559 [debug] [Thread-3 (]: Began running node model.mena_payments.risk_scores
+[0m03:26:46.436480 [info ] [Thread-2 (]: 8 of 9 START sql view model bronze_gold.risk_explanations ...................... [RUN]
+[0m03:26:46.437745 [info ] [Thread-3 (]: 9 of 9 START sql table model bronze_gold.risk_scores ........................... [RUN]
+[0m03:26:46.439179 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.mena_payments.dim_date, now model.mena_payments.risk_explanations)
+[0m03:26:46.440534 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.mena_payments.fact_payment_attempts, now model.mena_payments.risk_scores)
+[0m03:26:46.441789 [debug] [Thread-2 (]: Began compiling node model.mena_payments.risk_explanations
+[0m03:26:46.443097 [debug] [Thread-3 (]: Began compiling node model.mena_payments.risk_scores
+[0m03:26:46.448382 [debug] [Thread-2 (]: Writing injected SQL for node "model.mena_payments.risk_explanations"
+[0m03:26:46.452597 [debug] [Thread-3 (]: Writing injected SQL for node "model.mena_payments.risk_scores"
+[0m03:26:46.457250 [debug] [Thread-2 (]: Began executing node model.mena_payments.risk_explanations
+[0m03:26:46.465477 [debug] [Thread-3 (]: Began executing node model.mena_payments.risk_scores
+[0m03:26:46.483597 [debug] [Thread-2 (]: Writing runtime sql for node "model.mena_payments.risk_explanations"
+[0m03:26:46.488768 [debug] [Thread-3 (]: Writing runtime sql for node "model.mena_payments.risk_scores"
+[0m03:26:46.494340 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:26:46.495657 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: BEGIN
+[0m03:26:46.496907 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:26:46.497462 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:26:46.500878 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: BEGIN
+[0m03:26:46.502179 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:26:46.505767 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:46.507672 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:26:46.509193 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_scores"} */
+
+  
+    
+
+  create  table "mena_payments"."bronze_gold"."risk_scores__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+  attempt_id,
+  user_id,
+  count(*) * 40 as risk_score,
+  case
+    when count(*) >= 3 then 'high'
+    when count(*) = 2 then 'medium'
+    else 'low'
+  end as risk_band
+from "mena_payments"."bronze_gold"."risk_signals"
+group by 1,2
+  );
+  
+[0m03:26:46.511197 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:46.512616 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:26:46.514060 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_explanations"} */
+
+  create view "mena_payments"."bronze_gold"."risk_explanations__dbt_tmp"
+    
+    
+  as (
+    
+
+select
+  attempt_id,
+  user_id,
+  string_agg(rule_name, ', ' order by rule_name) as triggered_rules,
+  count(*) as rule_count
+from "mena_payments"."bronze_gold"."risk_signals"
+group by 1,2
+  );
+[0m03:26:46.519605 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m03:26:46.579465 [debug] [Thread-3 (]: SQL status: SELECT 9272 in 0.0 seconds
+[0m03:26:46.581391 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:26:46.585097 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:26:46.586597 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_explanations"} */
+alter table "mena_payments"."bronze_gold"."risk_explanations__dbt_tmp" rename to "risk_explanations"
+[0m03:26:46.587945 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_scores"} */
+alter table "mena_payments"."bronze_gold"."risk_scores__dbt_tmp" rename to "risk_scores"
+[0m03:26:46.589949 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:46.590796 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:26:46.592398 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: COMMIT
+[0m03:26:46.594909 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: COMMIT
+[0m03:26:46.596355 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:26:46.597757 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:26:46.598849 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: COMMIT
+[0m03:26:46.599706 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: COMMIT
+[0m03:26:46.605694 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:46.606176 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:46.608839 [debug] [Thread-2 (]: Applying DROP to: "mena_payments"."bronze_gold"."risk_explanations__dbt_backup"
+[0m03:26:46.611746 [debug] [Thread-3 (]: Applying DROP to: "mena_payments"."bronze_gold"."risk_scores__dbt_backup"
+[0m03:26:46.615031 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:26:46.616314 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:26:46.617211 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_explanations"} */
+drop view if exists "mena_payments"."bronze_gold"."risk_explanations__dbt_backup" cascade
+[0m03:26:46.618057 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_scores"} */
+drop table if exists "mena_payments"."bronze_gold"."risk_scores__dbt_backup" cascade
+[0m03:26:46.619318 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m03:26:46.619963 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:26:46.621398 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: Close
+[0m03:26:46.623122 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: Close
+[0m03:26:46.624399 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c319a9f90>]}
+[0m03:26:46.625422 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4f987eb3-2030-4fff-b23d-aed43a12ad37', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c332fdc90>]}
+[0m03:26:46.626505 [info ] [Thread-2 (]: 8 of 9 OK created sql view model bronze_gold.risk_explanations ................. [[32mCREATE VIEW[0m in 0.19s]
+[0m03:26:46.628133 [info ] [Thread-3 (]: 9 of 9 OK created sql table model bronze_gold.risk_scores ...................... [[32mSELECT 9272[0m in 0.18s]
+[0m03:26:46.629988 [debug] [Thread-2 (]: Finished running node model.mena_payments.risk_explanations
+[0m03:26:46.631381 [debug] [Thread-3 (]: Finished running node model.mena_payments.risk_scores
+[0m03:26:46.634493 [debug] [MainThread]: Using postgres connection "master"
+[0m03:26:46.635445 [debug] [MainThread]: On master: BEGIN
+[0m03:26:46.636237 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:26:46.641672 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:26:46.642924 [debug] [MainThread]: On master: COMMIT
+[0m03:26:46.643793 [debug] [MainThread]: Using postgres connection "master"
+[0m03:26:46.644788 [debug] [MainThread]: On master: COMMIT
+[0m03:26:46.645992 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:26:46.647072 [debug] [MainThread]: On master: Close
+[0m03:26:46.648744 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:26:46.650892 [debug] [MainThread]: Connection 'model.mena_payments.risk_explanations' was properly closed.
+[0m03:26:46.651913 [debug] [MainThread]: Connection 'model.mena_payments.dim_device' was properly closed.
+[0m03:26:46.652734 [debug] [MainThread]: Connection 'model.mena_payments.risk_scores' was properly closed.
+[0m03:26:46.653488 [debug] [MainThread]: Connection 'model.mena_payments.risk_signals' was properly closed.
+[0m03:26:46.654404 [info ] [MainThread]: 
+[0m03:26:46.656052 [info ] [MainThread]: Finished running 8 table models, 1 view model in 0 hours 0 minutes and 4.10 seconds (4.10s).
+[0m03:26:46.659217 [debug] [MainThread]: Command end result
+[0m03:26:46.705037 [info ] [MainThread]: 
+[0m03:26:46.706949 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:26:46.708584 [info ] [MainThread]: 
+[0m03:26:46.710057 [info ] [MainThread]: Done. PASS=9 WARN=0 ERROR=0 SKIP=0 TOTAL=9
+[0m03:26:46.712208 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.7036858, "process_user_time": 2.008662, "process_kernel_time": 0.387811, "process_mem_max_rss": "116532", "process_in_blocks": "5232", "process_out_blocks": "1272"}
+[0m03:26:46.714148 [debug] [MainThread]: Command `dbt run` succeeded at 03:26:46.713921 after 4.71 seconds
+[0m03:26:46.716920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c31911f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c36ff8750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c3717cdd0>]}
+[0m03:26:46.719046 [debug] [MainThread]: Flushing usage events
+[0m03:26:50.013196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6340b7e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6342b7b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc634109750>]}
+
+
+============================== 03:26:50.019324 | 1f3d743e-df8f-47aa-8f7c-cd8e5463d312 ==============================
+[0m03:26:50.019324 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:26:50.020668 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/usr/app/logs', 'version_check': 'True', 'profiles_dir': '/usr/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:26:50.162374 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1f3d743e-df8f-47aa-8f7c-cd8e5463d312', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc634109c10>]}
+[0m03:26:50.202717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1f3d743e-df8f-47aa-8f7c-cd8e5463d312', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc635cc1650>]}
+[0m03:26:50.205080 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:26:50.218342 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:26:50.387705 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m03:26:50.388721 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m03:26:50.393668 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mena_payments.bronze
+[0m03:26:50.414063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1f3d743e-df8f-47aa-8f7c-cd8e5463d312', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc632755b50>]}
+[0m03:26:50.506233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1f3d743e-df8f-47aa-8f7c-cd8e5463d312', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc63241b0d0>]}
+[0m03:26:50.508021 [info ] [MainThread]: Found 9 models, 415 macros
+[0m03:26:50.509447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1f3d743e-df8f-47aa-8f7c-cd8e5463d312', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6323ffb10>]}
+[0m03:26:50.512133 [info ] [MainThread]: 
+[0m03:26:50.513714 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m03:26:50.516992 [debug] [MainThread]: Command end result
+[0m03:26:50.559550 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 0.5953638, "process_user_time": 1.332089, "process_kernel_time": 0.228642, "process_mem_max_rss": "105096", "process_out_blocks": "1176", "process_in_blocks": "0"}
+[0m03:26:50.560890 [debug] [MainThread]: Command `dbt test` succeeded at 03:26:50.560720 after 0.60 seconds
+[0m03:26:50.561940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc637ee46d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc6380402d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc638040ad0>]}
+[0m03:26:50.562954 [debug] [MainThread]: Flushing usage events
+[0m03:31:42.831307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64730d3b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6473415310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6473125c90>]}
+
+
+============================== 03:31:42.838722 | b58c087f-e1c5-4148-bdb2-0316cd5180b9 ==============================
+[0m03:31:42.838722 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:31:42.840167 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/usr/app', 'debug': 'False', 'warn_error': 'None', 'log_path': '/usr/app/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt test', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m03:31:43.049942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6472f4b690>]}
+[0m03:31:43.106569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6474cdce90>]}
+[0m03:31:43.109500 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:31:43.128411 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:31:43.201244 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m03:31:43.203250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64745cf310>]}
+[0m03:31:44.153979 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+The `tests` config has been renamed to `data_tests`. Please see
+https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+information.
+[0m03:31:44.155881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6472fe3b90>]}
+[0m03:31:44.387807 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mena_payments.bronze
+[0m03:31:44.395953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6470531910>]}
+[0m03:31:44.523324 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6473003d90>]}
+[0m03:31:44.524683 [info ] [MainThread]: Found 9 models, 5 data tests, 415 macros
+[0m03:31:44.526170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6470394e50>]}
+[0m03:31:44.529763 [info ] [MainThread]: 
+[0m03:31:44.531936 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:31:44.540976 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments_analytics_silver'
+[0m03:31:44.541953 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments_analytics_gold'
+[0m03:31:44.597144 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_silver"
+[0m03:31:44.597564 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_gold"
+[0m03:31:44.598295 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: BEGIN
+[0m03:31:44.599158 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: BEGIN
+[0m03:31:44.599994 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:31:44.600782 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:31:44.622794 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.623276 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.624045 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_gold"
+[0m03:31:44.624910 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_silver"
+[0m03:31:44.625839 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_analytics_gold"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_gold'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_gold'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_gold'
+  
+[0m03:31:44.626811 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_analytics_silver"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_silver'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_silver'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_silver'
+  
+[0m03:31:44.639045 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m03:31:44.639565 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m03:31:44.641480 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: ROLLBACK
+[0m03:31:44.643903 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: ROLLBACK
+[0m03:31:44.646082 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: Close
+[0m03:31:44.647315 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: Close
+[0m03:31:44.654343 [debug] [MainThread]: Using postgres connection "master"
+[0m03:31:44.655744 [debug] [MainThread]: On master: BEGIN
+[0m03:31:44.656643 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:31:44.663196 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.664557 [debug] [MainThread]: Using postgres connection "master"
+[0m03:31:44.666229 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m03:31:44.680278 [debug] [MainThread]: SQL status: SELECT 2 in 0.0 seconds
+[0m03:31:44.682493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b58c087f-e1c5-4148-bdb2-0316cd5180b9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f647311ce90>]}
+[0m03:31:44.683750 [debug] [MainThread]: On master: ROLLBACK
+[0m03:31:44.684947 [debug] [MainThread]: Using postgres connection "master"
+[0m03:31:44.686222 [debug] [MainThread]: On master: BEGIN
+[0m03:31:44.688454 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.689581 [debug] [MainThread]: On master: COMMIT
+[0m03:31:44.690456 [debug] [MainThread]: Using postgres connection "master"
+[0m03:31:44.691355 [debug] [MainThread]: On master: COMMIT
+[0m03:31:44.692653 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:31:44.693616 [debug] [MainThread]: On master: Close
+[0m03:31:44.694951 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:31:44.696263 [info ] [MainThread]: 
+[0m03:31:44.714626 [debug] [Thread-1 (]: Began running node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:31:44.715306 [debug] [Thread-2 (]: Began running node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:31:44.715817 [debug] [Thread-3 (]: Began running node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:31:44.716259 [debug] [Thread-4 (]: Began running node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:31:44.716928 [info ] [Thread-1 (]: 1 of 5 START test not_null_dim_user_user_id .................................... [RUN]
+[0m03:31:44.718217 [info ] [Thread-2 (]: 2 of 5 START test not_null_fact_payment_attempts_attempt_id .................... [RUN]
+[0m03:31:44.720060 [info ] [Thread-3 (]: 3 of 5 START test not_null_risk_scores_attempt_id .............................. [RUN]
+[0m03:31:44.724158 [info ] [Thread-4 (]: 4 of 5 START test unique_dim_user_user_id ...................................... [RUN]
+[0m03:31:44.728980 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_mena_payments_analytics_silver, now test.mena_payments.not_null_dim_user_user_id.4b202b08a3)
+[0m03:31:44.730691 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_mena_payments_analytics_gold, now test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa)
+[0m03:31:44.731942 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20'
+[0m03:31:44.733416 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.mena_payments.unique_dim_user_user_id.eff0a2a278'
+[0m03:31:44.735351 [debug] [Thread-1 (]: Began compiling node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:31:44.737878 [debug] [Thread-2 (]: Began compiling node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:31:44.739090 [debug] [Thread-3 (]: Began compiling node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:31:44.740197 [debug] [Thread-4 (]: Began compiling node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:31:44.759339 [debug] [Thread-1 (]: Writing injected SQL for node "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:31:44.763874 [debug] [Thread-2 (]: Writing injected SQL for node "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:31:44.768792 [debug] [Thread-3 (]: Writing injected SQL for node "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:31:44.775416 [debug] [Thread-4 (]: Writing injected SQL for node "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:31:44.783190 [debug] [Thread-3 (]: Began executing node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:31:44.790137 [debug] [Thread-2 (]: Began executing node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:31:44.801419 [debug] [Thread-3 (]: Writing runtime sql for node "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:31:44.805467 [debug] [Thread-2 (]: Writing runtime sql for node "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:31:44.806101 [debug] [Thread-1 (]: Began executing node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:31:44.806705 [debug] [Thread-4 (]: Began executing node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:31:44.811798 [debug] [Thread-1 (]: Writing runtime sql for node "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:31:44.817864 [debug] [Thread-4 (]: Writing runtime sql for node "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:31:44.835852 [debug] [Thread-4 (]: Using postgres connection "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:31:44.837594 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: BEGIN
+[0m03:31:44.838359 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:31:44.839704 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m03:31:44.840758 [debug] [Thread-1 (]: Using postgres connection "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:31:44.842161 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: BEGIN
+[0m03:31:44.844051 [debug] [Thread-2 (]: Using postgres connection "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:31:44.849989 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: BEGIN
+[0m03:31:44.852855 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:31:44.854577 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.855142 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: BEGIN
+[0m03:31:44.856653 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:31:44.859093 [debug] [Thread-4 (]: Using postgres connection "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:31:44.860377 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:31:44.862481 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.unique_dim_user_user_id.eff0a2a278"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    user_id as unique_field,
+    count(*) as n_records
+
+from "mena_payments"."analytics_gold"."dim_user"
+where user_id is not null
+group by user_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m03:31:44.863883 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.866227 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:31:44.867456 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select attempt_id
+from "mena_payments"."analytics_gold"."risk_scores"
+where attempt_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m03:31:44.867948 [debug] [Thread-4 (]: Postgres adapter: Postgres error: relation "analytics_gold.dim_user" does not exist
+LINE 15: from "mena_payments"."analytics_gold"."dim_user"
+              ^
+
+[0m03:31:44.868328 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.869934 [debug] [Thread-3 (]: Postgres adapter: Postgres error: relation "analytics_gold.risk_scores" does not exist
+LINE 14: from "mena_payments"."analytics_gold"."risk_scores"
+              ^
+
+[0m03:31:44.870384 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.870723 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: ROLLBACK
+[0m03:31:44.871644 [debug] [Thread-1 (]: Using postgres connection "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:31:44.872486 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: ROLLBACK
+[0m03:31:44.873287 [debug] [Thread-2 (]: Using postgres connection "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:31:44.874478 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: Close
+[0m03:31:44.875165 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select user_id
+from "mena_payments"."analytics_gold"."dim_user"
+where user_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m03:31:44.876376 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: Close
+[0m03:31:44.876998 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select attempt_id
+from "mena_payments"."analytics_gold"."fact_payment_attempts"
+where attempt_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m03:31:44.880383 [debug] [Thread-1 (]: Postgres adapter: Postgres error: relation "analytics_gold.dim_user" does not exist
+LINE 14: from "mena_payments"."analytics_gold"."dim_user"
+              ^
+
+[0m03:31:44.883773 [debug] [Thread-2 (]: Postgres adapter: Postgres error: relation "analytics_gold.fact_payment_attempts" does not exist
+LINE 14: from "mena_payments"."analytics_gold"."fact_payment_attempts...
+              ^
+
+[0m03:31:44.885016 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: ROLLBACK
+[0m03:31:44.886860 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: ROLLBACK
+[0m03:31:44.889112 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: Close
+[0m03:31:44.891743 [debug] [Thread-3 (]: Database Error in test not_null_risk_scores_attempt_id (models/schema.yml)
+  relation "analytics_gold.risk_scores" does not exist
+  LINE 14: from "mena_payments"."analytics_gold"."risk_scores"
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/not_null_risk_scores_attempt_id.sql
+[0m03:31:44.892543 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: Close
+[0m03:31:44.893569 [debug] [Thread-4 (]: Database Error in test unique_dim_user_user_id (models/schema.yml)
+  relation "analytics_gold.dim_user" does not exist
+  LINE 15: from "mena_payments"."analytics_gold"."dim_user"
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/unique_dim_user_user_id.sql
+[0m03:31:44.896239 [debug] [Thread-1 (]: Database Error in test not_null_dim_user_user_id (models/schema.yml)
+  relation "analytics_gold.dim_user" does not exist
+  LINE 14: from "mena_payments"."analytics_gold"."dim_user"
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/not_null_dim_user_user_id.sql
+[0m03:31:44.897897 [error] [Thread-3 (]: 3 of 5 ERROR not_null_risk_scores_attempt_id ................................... [[31mERROR[0m in 0.17s]
+[0m03:31:44.902269 [debug] [Thread-2 (]: Database Error in test not_null_fact_payment_attempts_attempt_id (models/schema.yml)
+  relation "analytics_gold.fact_payment_attempts" does not exist
+  LINE 14: from "mena_payments"."analytics_gold"."fact_payment_attempts...
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/not_null_fact_payment_attempts_attempt_id.sql
+[0m03:31:44.903271 [error] [Thread-4 (]: 4 of 5 ERROR unique_dim_user_user_id ........................................... [[31mERROR[0m in 0.17s]
+[0m03:31:44.905022 [error] [Thread-1 (]: 1 of 5 ERROR not_null_dim_user_user_id ......................................... [[31mERROR[0m in 0.18s]
+[0m03:31:44.906744 [debug] [Thread-3 (]: Finished running node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:31:44.908432 [error] [Thread-2 (]: 2 of 5 ERROR not_null_fact_payment_attempts_attempt_id ......................... [[31mERROR[0m in 0.18s]
+[0m03:31:44.910302 [debug] [Thread-4 (]: Finished running node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:31:44.912854 [debug] [Thread-1 (]: Finished running node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:31:44.914760 [debug] [Thread-3 (]: Began running node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:31:44.917110 [debug] [Thread-2 (]: Finished running node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:31:44.921702 [info ] [Thread-3 (]: 5 of 5 START test unique_fact_payment_attempts_attempt_id ...................... [RUN]
+[0m03:31:44.924214 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20, now test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930)
+[0m03:31:44.925707 [debug] [Thread-3 (]: Began compiling node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:31:44.931901 [debug] [Thread-3 (]: Writing injected SQL for node "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:31:44.945824 [debug] [Thread-3 (]: Began executing node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:31:44.953129 [debug] [Thread-3 (]: Writing runtime sql for node "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:31:44.967175 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:31:44.969128 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: BEGIN
+[0m03:31:44.970628 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:31:44.983288 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:44.984768 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:31:44.985657 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    attempt_id as unique_field,
+    count(*) as n_records
+
+from "mena_payments"."analytics_gold"."fact_payment_attempts"
+where attempt_id is not null
+group by attempt_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m03:31:44.986948 [debug] [Thread-3 (]: Postgres adapter: Postgres error: relation "analytics_gold.fact_payment_attempts" does not exist
+LINE 15: from "mena_payments"."analytics_gold"."fact_payment_attempts...
+              ^
+
+[0m03:31:44.987764 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: ROLLBACK
+[0m03:31:44.988927 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: Close
+[0m03:31:44.991407 [debug] [Thread-3 (]: Database Error in test unique_fact_payment_attempts_attempt_id (models/schema.yml)
+  relation "analytics_gold.fact_payment_attempts" does not exist
+  LINE 15: from "mena_payments"."analytics_gold"."fact_payment_attempts...
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/unique_fact_payment_attempts_attempt_id.sql
+[0m03:31:44.992546 [error] [Thread-3 (]: 5 of 5 ERROR unique_fact_payment_attempts_attempt_id ........................... [[31mERROR[0m in 0.07s]
+[0m03:31:44.993639 [debug] [Thread-3 (]: Finished running node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:31:44.996216 [debug] [MainThread]: Using postgres connection "master"
+[0m03:31:44.997159 [debug] [MainThread]: On master: BEGIN
+[0m03:31:44.998064 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:31:45.004131 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:31:45.005426 [debug] [MainThread]: On master: COMMIT
+[0m03:31:45.006320 [debug] [MainThread]: Using postgres connection "master"
+[0m03:31:45.007183 [debug] [MainThread]: On master: COMMIT
+[0m03:31:45.008217 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:31:45.009050 [debug] [MainThread]: On master: Close
+[0m03:31:45.010017 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:31:45.010903 [debug] [MainThread]: Connection 'test.mena_payments.not_null_dim_user_user_id.4b202b08a3' was properly closed.
+[0m03:31:45.011855 [debug] [MainThread]: Connection 'test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa' was properly closed.
+[0m03:31:45.012689 [debug] [MainThread]: Connection 'test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930' was properly closed.
+[0m03:31:45.013552 [debug] [MainThread]: Connection 'test.mena_payments.unique_dim_user_user_id.eff0a2a278' was properly closed.
+[0m03:31:45.014366 [info ] [MainThread]: 
+[0m03:31:45.015643 [info ] [MainThread]: Finished running 5 data tests in 0 hours 0 minutes and 0.48 seconds (0.48s).
+[0m03:31:45.018439 [debug] [MainThread]: Command end result
+[0m03:31:45.064095 [info ] [MainThread]: 
+[0m03:31:45.065993 [info ] [MainThread]: [31mCompleted with 5 errors and 0 warnings:[0m
+[0m03:31:45.067661 [info ] [MainThread]: 
+[0m03:31:45.069365 [error] [MainThread]:   Database Error in test not_null_risk_scores_attempt_id (models/schema.yml)
+  relation "analytics_gold.risk_scores" does not exist
+  LINE 14: from "mena_payments"."analytics_gold"."risk_scores"
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/not_null_risk_scores_attempt_id.sql
+[0m03:31:45.070672 [info ] [MainThread]: 
+[0m03:31:45.071922 [error] [MainThread]:   Database Error in test unique_dim_user_user_id (models/schema.yml)
+  relation "analytics_gold.dim_user" does not exist
+  LINE 15: from "mena_payments"."analytics_gold"."dim_user"
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/unique_dim_user_user_id.sql
+[0m03:31:45.073434 [info ] [MainThread]: 
+[0m03:31:45.075449 [error] [MainThread]:   Database Error in test not_null_dim_user_user_id (models/schema.yml)
+  relation "analytics_gold.dim_user" does not exist
+  LINE 14: from "mena_payments"."analytics_gold"."dim_user"
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/not_null_dim_user_user_id.sql
+[0m03:31:45.077635 [info ] [MainThread]: 
+[0m03:31:45.081557 [error] [MainThread]:   Database Error in test not_null_fact_payment_attempts_attempt_id (models/schema.yml)
+  relation "analytics_gold.fact_payment_attempts" does not exist
+  LINE 14: from "mena_payments"."analytics_gold"."fact_payment_attempts...
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/not_null_fact_payment_attempts_attempt_id.sql
+[0m03:31:45.082946 [info ] [MainThread]: 
+[0m03:31:45.084797 [error] [MainThread]:   Database Error in test unique_fact_payment_attempts_attempt_id (models/schema.yml)
+  relation "analytics_gold.fact_payment_attempts" does not exist
+  LINE 15: from "mena_payments"."analytics_gold"."fact_payment_attempts...
+                ^
+  compiled Code at target/run/mena_payments/models/schema.yml/unique_fact_payment_attempts_attempt_id.sql
+[0m03:31:45.085865 [info ] [MainThread]: 
+[0m03:31:45.086981 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=5 SKIP=0 TOTAL=5
+[0m03:31:45.091333 [debug] [MainThread]: Resource report: {"command_name": "test", "command_wall_clock_time": 2.3141768, "process_user_time": 2.847862, "process_kernel_time": 0.793333, "process_mem_max_rss": "118192", "process_in_blocks": "111808", "process_out_blocks": "1272", "command_success": false}
+[0m03:31:45.093064 [debug] [MainThread]: Command `dbt test` failed at 03:31:45.092853 after 2.32 seconds
+[0m03:31:45.095065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64730c7550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64730c7790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f64730c7850>]}
+[0m03:31:45.096432 [debug] [MainThread]: Flushing usage events
+[0m03:33:16.215505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361befad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361bee490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361beef10>]}
+
+
+============================== 03:33:16.224478 | 8a66f038-54e9-40be-81b6-3ba6644ec480 ==============================
+[0m03:33:16.224478 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:33:16.225797 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/usr/app/logs', 'debug': 'False', 'profiles_dir': '/usr/app', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --full-refresh', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m03:33:16.411201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361b00810>]}
+[0m03:33:16.454223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f93637e8b90>]}
+[0m03:33:16.456805 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:33:16.470814 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:33:16.695504 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m03:33:16.696716 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m03:33:16.702181 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mena_payments.bronze
+[0m03:33:16.736946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9360307750>]}
+[0m03:33:16.843195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361b20dd0>]}
+[0m03:33:16.844763 [info ] [MainThread]: Found 9 models, 5 data tests, 415 macros
+[0m03:33:16.846469 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f93602ecb50>]}
+[0m03:33:16.849848 [info ] [MainThread]: 
+[0m03:33:16.852104 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:33:16.858377 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments'
+[0m03:33:16.859855 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments'
+[0m03:33:16.916282 [debug] [ThreadPool]: Using postgres connection "list_mena_payments"
+[0m03:33:16.916751 [debug] [ThreadPool]: Using postgres connection "list_mena_payments"
+[0m03:33:16.917882 [debug] [ThreadPool]: On list_mena_payments: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:33:16.919282 [debug] [ThreadPool]: On list_mena_payments: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:33:16.920986 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:33:16.922854 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:33:16.949706 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.0 seconds
+[0m03:33:16.950107 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.0 seconds
+[0m03:33:16.951646 [debug] [ThreadPool]: On list_mena_payments: Close
+[0m03:33:16.953429 [debug] [ThreadPool]: On list_mena_payments: Close
+[0m03:33:16.955555 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_mena_payments, now create_mena_payments_analytics_gold)
+[0m03:33:16.956014 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_mena_payments, now create_mena_payments_analytics_silver)
+[0m03:33:16.956966 [debug] [ThreadPool]: Creating schema "database: "mena_payments"
+schema: "analytics_gold"
+"
+[0m03:33:16.957893 [debug] [ThreadPool]: Creating schema "database: "mena_payments"
+schema: "analytics_silver"
+"
+[0m03:33:16.963246 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_analytics_gold"
+[0m03:33:16.965957 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_analytics_silver"
+[0m03:33:16.966878 [debug] [ThreadPool]: On create_mena_payments_analytics_gold: BEGIN
+[0m03:33:16.967651 [debug] [ThreadPool]: On create_mena_payments_analytics_silver: BEGIN
+[0m03:33:16.968414 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:33:16.969143 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:33:16.974938 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:16.975337 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:16.976198 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_analytics_silver"
+[0m03:33:16.977014 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_analytics_gold"
+[0m03:33:16.977782 [debug] [ThreadPool]: On create_mena_payments_analytics_silver: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "create_mena_payments_analytics_silver"} */
+create schema if not exists "analytics_silver"
+[0m03:33:16.978557 [debug] [ThreadPool]: On create_mena_payments_analytics_gold: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "create_mena_payments_analytics_gold"} */
+create schema if not exists "analytics_gold"
+[0m03:33:16.981353 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+[0m03:33:16.981694 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.0 seconds
+[0m03:33:16.982862 [debug] [ThreadPool]: On create_mena_payments_analytics_gold: COMMIT
+[0m03:33:16.984490 [debug] [ThreadPool]: On create_mena_payments_analytics_silver: COMMIT
+[0m03:33:16.985748 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_analytics_gold"
+[0m03:33:16.986808 [debug] [ThreadPool]: Using postgres connection "create_mena_payments_analytics_silver"
+[0m03:33:16.987959 [debug] [ThreadPool]: On create_mena_payments_analytics_gold: COMMIT
+[0m03:33:16.989256 [debug] [ThreadPool]: On create_mena_payments_analytics_silver: COMMIT
+[0m03:33:16.992853 [debug] [ThreadPool]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:16.993378 [debug] [ThreadPool]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:16.994059 [debug] [ThreadPool]: On create_mena_payments_analytics_gold: Close
+[0m03:33:16.994838 [debug] [ThreadPool]: On create_mena_payments_analytics_silver: Close
+[0m03:33:16.999477 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_mena_payments_analytics_silver, now list_mena_payments_analytics_gold)
+[0m03:33:17.000317 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_mena_payments_analytics_gold, now list_mena_payments_analytics_silver)
+[0m03:33:17.007039 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_gold"
+[0m03:33:17.009624 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_silver"
+[0m03:33:17.010903 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: BEGIN
+[0m03:33:17.011643 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: BEGIN
+[0m03:33:17.012545 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:33:17.013501 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m03:33:17.019166 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.020840 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.021243 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_gold"
+[0m03:33:17.022370 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_silver"
+[0m03:33:17.023248 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_analytics_gold"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_gold'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_gold'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_gold'
+  
+[0m03:33:17.024119 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_analytics_silver"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_silver'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_silver'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_silver'
+  
+[0m03:33:17.029650 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m03:33:17.030248 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m03:33:17.031846 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: ROLLBACK
+[0m03:33:17.033503 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: ROLLBACK
+[0m03:33:17.034740 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: Close
+[0m03:33:17.035366 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: Close
+[0m03:33:17.041665 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:17.042933 [debug] [MainThread]: On master: BEGIN
+[0m03:33:17.043752 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:33:17.049770 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.050881 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:17.051745 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m03:33:17.059414 [debug] [MainThread]: SQL status: SELECT 2 in 0.0 seconds
+[0m03:33:17.061431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361c038d0>]}
+[0m03:33:17.062640 [debug] [MainThread]: On master: ROLLBACK
+[0m03:33:17.064012 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:17.064863 [debug] [MainThread]: On master: BEGIN
+[0m03:33:17.066201 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.067332 [debug] [MainThread]: On master: COMMIT
+[0m03:33:17.068234 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:17.069186 [debug] [MainThread]: On master: COMMIT
+[0m03:33:17.070601 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:17.072162 [debug] [MainThread]: On master: Close
+[0m03:33:17.073404 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:33:17.074771 [info ] [MainThread]: 
+[0m03:33:17.084535 [debug] [Thread-1 (]: Began running node model.mena_payments.dim_device
+[0m03:33:17.085210 [debug] [Thread-2 (]: Began running node model.mena_payments.dim_merchant
+[0m03:33:17.085678 [debug] [Thread-3 (]: Began running node model.mena_payments.dim_user
+[0m03:33:17.086131 [debug] [Thread-4 (]: Began running node model.mena_payments.payment_attempts_clean
+[0m03:33:17.087043 [info ] [Thread-1 (]: 1 of 9 START sql table model analytics_gold.dim_device ......................... [RUN]
+[0m03:33:17.088742 [info ] [Thread-2 (]: 2 of 9 START sql table model analytics_gold.dim_merchant ....................... [RUN]
+[0m03:33:17.090628 [info ] [Thread-3 (]: 3 of 9 START sql table model analytics_gold.dim_user ........................... [RUN]
+[0m03:33:17.092127 [info ] [Thread-4 (]: 4 of 9 START sql table model analytics_silver.payment_attempts_clean ........... [RUN]
+[0m03:33:17.095235 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_mena_payments_analytics_silver, now model.mena_payments.dim_device)
+[0m03:33:17.096871 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_mena_payments_analytics_gold, now model.mena_payments.dim_merchant)
+[0m03:33:17.098267 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.mena_payments.dim_user'
+[0m03:33:17.099600 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.mena_payments.payment_attempts_clean'
+[0m03:33:17.100918 [debug] [Thread-1 (]: Began compiling node model.mena_payments.dim_device
+[0m03:33:17.102699 [debug] [Thread-2 (]: Began compiling node model.mena_payments.dim_merchant
+[0m03:33:17.104596 [debug] [Thread-3 (]: Began compiling node model.mena_payments.dim_user
+[0m03:33:17.105976 [debug] [Thread-4 (]: Began compiling node model.mena_payments.payment_attempts_clean
+[0m03:33:17.115042 [debug] [Thread-1 (]: Writing injected SQL for node "model.mena_payments.dim_device"
+[0m03:33:17.119094 [debug] [Thread-2 (]: Writing injected SQL for node "model.mena_payments.dim_merchant"
+[0m03:33:17.124102 [debug] [Thread-3 (]: Writing injected SQL for node "model.mena_payments.dim_user"
+[0m03:33:17.128381 [debug] [Thread-4 (]: Writing injected SQL for node "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.136763 [debug] [Thread-2 (]: Began executing node model.mena_payments.dim_merchant
+[0m03:33:17.144832 [debug] [Thread-3 (]: Began executing node model.mena_payments.dim_user
+[0m03:33:17.145471 [debug] [Thread-4 (]: Began executing node model.mena_payments.payment_attempts_clean
+[0m03:33:17.146346 [debug] [Thread-1 (]: Began executing node model.mena_payments.dim_device
+[0m03:33:17.190038 [debug] [Thread-2 (]: Writing runtime sql for node "model.mena_payments.dim_merchant"
+[0m03:33:17.190507 [debug] [Thread-3 (]: Writing runtime sql for node "model.mena_payments.dim_user"
+[0m03:33:17.194529 [debug] [Thread-4 (]: Writing runtime sql for node "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.198836 [debug] [Thread-1 (]: Writing runtime sql for node "model.mena_payments.dim_device"
+[0m03:33:17.205329 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:33:17.206229 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.206927 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:33:17.208260 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: BEGIN
+[0m03:33:17.209164 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:33:17.210352 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: BEGIN
+[0m03:33:17.211597 [debug] [Thread-3 (]: On model.mena_payments.dim_user: BEGIN
+[0m03:33:17.212924 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:33:17.214073 [debug] [Thread-1 (]: On model.mena_payments.dim_device: BEGIN
+[0m03:33:17.215160 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m03:33:17.216330 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:33:17.218890 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:33:17.224437 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.226562 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:33:17.227601 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.228119 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.231175 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.231704 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_merchant"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."dim_merchant__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  merchant_id,
+  country,
+  city,
+  category,
+  onboarding_date
+from bronze.merchants
+  );
+  
+[0m03:33:17.233401 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:33:17.235605 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.237343 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:33:17.239700 [debug] [Thread-3 (]: On model.mena_payments.dim_user: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_user"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."dim_user__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  user_id,
+  country,
+  city,
+  persona,
+  signup_date,
+  risk_profile
+from bronze.users
+  );
+  
+[0m03:33:17.240698 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.payment_attempts_clean"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_silver"."payment_attempts_clean__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+  attempt_id,
+  ts::timestamp as attempt_ts,
+  user_id,
+  device_id,
+  merchant_id,
+  amount::numeric(12,2) as amount,
+  currency,
+  channel,
+  status,
+  failure_reason
+from bronze.payment_attempts
+  );
+  
+[0m03:33:17.241651 [debug] [Thread-1 (]: On model.mena_payments.dim_device: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_device"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."dim_device__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  device_id,
+  user_id,
+  device_type,
+  first_seen
+from bronze.devices
+  );
+  
+[0m03:33:17.254131 [debug] [Thread-2 (]: SQL status: SELECT 800 in 0.0 seconds
+[0m03:33:17.261496 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:33:17.262810 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_merchant"} */
+alter table "mena_payments"."analytics_gold"."dim_merchant__dbt_tmp" rename to "dim_merchant"
+[0m03:33:17.264745 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:17.271791 [debug] [Thread-3 (]: SQL status: SELECT 5000 in 0.0 seconds
+[0m03:33:17.277984 [debug] [Thread-1 (]: SQL status: SELECT 5000 in 0.0 seconds
+[0m03:33:17.283607 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: COMMIT
+[0m03:33:17.286989 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:33:17.291010 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:33:17.292431 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:33:17.293714 [debug] [Thread-3 (]: On model.mena_payments.dim_user: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_user"} */
+alter table "mena_payments"."analytics_gold"."dim_user__dbt_tmp" rename to "dim_user"
+[0m03:33:17.294919 [debug] [Thread-1 (]: On model.mena_payments.dim_device: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_device"} */
+alter table "mena_payments"."analytics_gold"."dim_device__dbt_tmp" rename to "dim_device"
+[0m03:33:17.295889 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: COMMIT
+[0m03:33:17.297308 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:17.298162 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:17.300596 [debug] [Thread-3 (]: On model.mena_payments.dim_user: COMMIT
+[0m03:33:17.302789 [debug] [Thread-1 (]: On model.mena_payments.dim_device: COMMIT
+[0m03:33:17.303957 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:33:17.304836 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:33:17.305719 [debug] [Thread-3 (]: On model.mena_payments.dim_user: COMMIT
+[0m03:33:17.306514 [debug] [Thread-1 (]: On model.mena_payments.dim_device: COMMIT
+[0m03:33:17.311345 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:17.318260 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:17.317927 [debug] [Thread-2 (]: Applying DROP to: "mena_payments"."analytics_gold"."dim_merchant__dbt_backup"
+[0m03:33:17.318900 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:17.321564 [debug] [Thread-3 (]: Applying DROP to: "mena_payments"."analytics_gold"."dim_user__dbt_backup"
+[0m03:33:17.327121 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_merchant"
+[0m03:33:17.330404 [debug] [Thread-1 (]: Applying DROP to: "mena_payments"."analytics_gold"."dim_device__dbt_backup"
+[0m03:33:17.331726 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.dim_user"
+[0m03:33:17.332746 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_merchant"} */
+drop table if exists "mena_payments"."analytics_gold"."dim_merchant__dbt_backup" cascade
+[0m03:33:17.334016 [debug] [Thread-1 (]: Using postgres connection "model.mena_payments.dim_device"
+[0m03:33:17.334954 [debug] [Thread-3 (]: On model.mena_payments.dim_user: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_user"} */
+drop table if exists "mena_payments"."analytics_gold"."dim_user__dbt_backup" cascade
+[0m03:33:17.336432 [debug] [Thread-1 (]: On model.mena_payments.dim_device: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_device"} */
+drop table if exists "mena_payments"."analytics_gold"."dim_device__dbt_backup" cascade
+[0m03:33:17.336823 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:17.337784 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:17.338830 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:17.341306 [debug] [Thread-2 (]: On model.mena_payments.dim_merchant: Close
+[0m03:33:17.344180 [debug] [Thread-3 (]: On model.mena_payments.dim_user: Close
+[0m03:33:17.346340 [debug] [Thread-1 (]: On model.mena_payments.dim_device: Close
+[0m03:33:17.349057 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935ed43010>]}
+[0m03:33:17.350452 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935ec1fc90>]}
+[0m03:33:17.351673 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935ecd5210>]}
+[0m03:33:17.352910 [info ] [Thread-2 (]: 2 of 9 OK created sql table model analytics_gold.dim_merchant .................. [[32mSELECT 800[0m in 0.25s]
+[0m03:33:17.354829 [info ] [Thread-3 (]: 3 of 9 OK created sql table model analytics_gold.dim_user ...................... [[32mSELECT 5000[0m in 0.25s]
+[0m03:33:17.356743 [info ] [Thread-1 (]: 1 of 9 OK created sql table model analytics_gold.dim_device .................... [[32mSELECT 5000[0m in 0.26s]
+[0m03:33:17.358638 [debug] [Thread-2 (]: Finished running node model.mena_payments.dim_merchant
+[0m03:33:17.360350 [debug] [Thread-3 (]: Finished running node model.mena_payments.dim_user
+[0m03:33:17.361823 [debug] [Thread-1 (]: Finished running node model.mena_payments.dim_device
+[0m03:33:17.810224 [debug] [Thread-4 (]: SQL status: SELECT 200000 in 1.0 seconds
+[0m03:33:17.814222 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.815517 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.payment_attempts_clean"} */
+alter table "mena_payments"."analytics_silver"."payment_attempts_clean__dbt_tmp" rename to "payment_attempts_clean"
+[0m03:33:17.817160 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:17.819571 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: COMMIT
+[0m03:33:17.820722 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.821688 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: COMMIT
+[0m03:33:17.843206 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:17.846486 [debug] [Thread-4 (]: Applying DROP to: "mena_payments"."analytics_silver"."payment_attempts_clean__dbt_backup"
+[0m03:33:17.847751 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.payment_attempts_clean"
+[0m03:33:17.848687 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.payment_attempts_clean"} */
+drop table if exists "mena_payments"."analytics_silver"."payment_attempts_clean__dbt_backup" cascade
+[0m03:33:17.849836 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:17.851588 [debug] [Thread-4 (]: On model.mena_payments.payment_attempts_clean: Close
+[0m03:33:17.852672 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935ecb8910>]}
+[0m03:33:17.853838 [info ] [Thread-4 (]: 4 of 9 OK created sql table model analytics_silver.payment_attempts_clean ...... [[32mSELECT 200000[0m in 0.75s]
+[0m03:33:17.855249 [debug] [Thread-4 (]: Finished running node model.mena_payments.payment_attempts_clean
+[0m03:33:17.857247 [debug] [Thread-2 (]: Began running node model.mena_payments.dim_date
+[0m03:33:17.857711 [debug] [Thread-3 (]: Began running node model.mena_payments.fact_payment_attempts
+[0m03:33:17.858679 [info ] [Thread-2 (]: 5 of 9 START sql table model analytics_gold.dim_date ........................... [RUN]
+[0m03:33:17.859884 [info ] [Thread-3 (]: 6 of 9 START sql table model analytics_gold.fact_payment_attempts .............. [RUN]
+[0m03:33:17.861066 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.mena_payments.dim_merchant, now model.mena_payments.dim_date)
+[0m03:33:17.862431 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.mena_payments.dim_user, now model.mena_payments.fact_payment_attempts)
+[0m03:33:17.863684 [debug] [Thread-2 (]: Began compiling node model.mena_payments.dim_date
+[0m03:33:17.865349 [debug] [Thread-3 (]: Began compiling node model.mena_payments.fact_payment_attempts
+[0m03:33:17.868988 [debug] [Thread-2 (]: Writing injected SQL for node "model.mena_payments.dim_date"
+[0m03:33:17.873870 [debug] [Thread-3 (]: Writing injected SQL for node "model.mena_payments.fact_payment_attempts"
+[0m03:33:17.879272 [debug] [Thread-2 (]: Began executing node model.mena_payments.dim_date
+[0m03:33:17.888299 [debug] [Thread-3 (]: Began executing node model.mena_payments.fact_payment_attempts
+[0m03:33:17.889476 [debug] [Thread-2 (]: Writing runtime sql for node "model.mena_payments.dim_date"
+[0m03:33:17.894990 [debug] [Thread-3 (]: Writing runtime sql for node "model.mena_payments.fact_payment_attempts"
+[0m03:33:17.901017 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:33:17.902519 [debug] [Thread-2 (]: On model.mena_payments.dim_date: BEGIN
+[0m03:33:17.903242 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:33:17.905106 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:33:17.907034 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: BEGIN
+[0m03:33:17.909578 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:33:17.914986 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.915898 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:17.916719 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:33:17.917695 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:33:17.918608 [debug] [Thread-2 (]: On model.mena_payments.dim_date: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_date"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."dim_date__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select distinct
+  attempt_ts::date as date,
+  extract(year from attempt_ts) as year,
+  extract(month from attempt_ts) as month,
+  extract(day from attempt_ts) as day,
+  extract(dow from attempt_ts) as day_of_week
+from "mena_payments"."analytics_silver"."payment_attempts_clean"
+  );
+  
+[0m03:33:17.919906 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.fact_payment_attempts"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."fact_payment_attempts__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+  attempt_id,
+  attempt_ts,
+  user_id,
+  device_id,
+  merchant_id,
+  amount,
+  currency,
+  channel,
+  status,
+  failure_reason
+from "mena_payments"."analytics_silver"."payment_attempts_clean"
+  );
+  
+[0m03:33:18.027748 [debug] [Thread-2 (]: SQL status: SELECT 31 in 0.0 seconds
+[0m03:33:18.032289 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:33:18.033666 [debug] [Thread-2 (]: On model.mena_payments.dim_date: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_date"} */
+alter table "mena_payments"."analytics_gold"."dim_date__dbt_tmp" rename to "dim_date"
+[0m03:33:18.035214 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:18.037343 [debug] [Thread-2 (]: On model.mena_payments.dim_date: COMMIT
+[0m03:33:18.038487 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:33:18.039571 [debug] [Thread-2 (]: On model.mena_payments.dim_date: COMMIT
+[0m03:33:18.050263 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:18.055383 [debug] [Thread-2 (]: Applying DROP to: "mena_payments"."analytics_gold"."dim_date__dbt_backup"
+[0m03:33:18.057660 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.dim_date"
+[0m03:33:18.059030 [debug] [Thread-2 (]: On model.mena_payments.dim_date: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.dim_date"} */
+drop table if exists "mena_payments"."analytics_gold"."dim_date__dbt_backup" cascade
+[0m03:33:18.060964 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:18.065289 [debug] [Thread-2 (]: On model.mena_payments.dim_date: Close
+[0m03:33:18.067166 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935c28ed50>]}
+[0m03:33:18.069583 [info ] [Thread-2 (]: 5 of 9 OK created sql table model analytics_gold.dim_date ...................... [[32mSELECT 31[0m in 0.21s]
+[0m03:33:18.072162 [debug] [Thread-2 (]: Finished running node model.mena_payments.dim_date
+[0m03:33:18.091691 [debug] [Thread-3 (]: SQL status: SELECT 200000 in 0.0 seconds
+[0m03:33:18.096861 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:33:18.099059 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.fact_payment_attempts"} */
+alter table "mena_payments"."analytics_gold"."fact_payment_attempts__dbt_tmp" rename to "fact_payment_attempts"
+[0m03:33:18.100893 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:18.104637 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: COMMIT
+[0m03:33:18.106245 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:33:18.107399 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: COMMIT
+[0m03:33:18.119698 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:18.123159 [debug] [Thread-3 (]: Applying DROP to: "mena_payments"."analytics_gold"."fact_payment_attempts__dbt_backup"
+[0m03:33:18.124643 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.fact_payment_attempts"
+[0m03:33:18.125620 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.fact_payment_attempts"} */
+drop table if exists "mena_payments"."analytics_gold"."fact_payment_attempts__dbt_backup" cascade
+[0m03:33:18.126891 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:18.129006 [debug] [Thread-3 (]: On model.mena_payments.fact_payment_attempts: Close
+[0m03:33:18.130323 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935c2bf110>]}
+[0m03:33:18.131854 [info ] [Thread-3 (]: 6 of 9 OK created sql table model analytics_gold.fact_payment_attempts ......... [[32mSELECT 200000[0m in 0.27s]
+[0m03:33:18.133548 [debug] [Thread-3 (]: Finished running node model.mena_payments.fact_payment_attempts
+[0m03:33:18.135478 [debug] [Thread-4 (]: Began running node model.mena_payments.risk_signals
+[0m03:33:18.136693 [info ] [Thread-4 (]: 7 of 9 START sql table model analytics_gold.risk_signals ....................... [RUN]
+[0m03:33:18.138063 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.mena_payments.payment_attempts_clean, now model.mena_payments.risk_signals)
+[0m03:33:18.139219 [debug] [Thread-4 (]: Began compiling node model.mena_payments.risk_signals
+[0m03:33:18.145297 [debug] [Thread-4 (]: Writing injected SQL for node "model.mena_payments.risk_signals"
+[0m03:33:18.152954 [debug] [Thread-4 (]: Began executing node model.mena_payments.risk_signals
+[0m03:33:18.157694 [debug] [Thread-4 (]: Writing runtime sql for node "model.mena_payments.risk_signals"
+[0m03:33:18.167420 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:33:18.168891 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: BEGIN
+[0m03:33:18.170432 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m03:33:18.177588 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:18.179015 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:33:18.180173 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_signals"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."risk_signals__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+with base as (
+  select * from "mena_payments"."analytics_gold"."fact_payment_attempts"
+),
+
+user_avg as (
+  select user_id, avg(amount) as avg_amount
+  from base
+  group by 1
+),
+
+velocity as (
+  select
+    p1.attempt_id,
+    p1.user_id,
+    'velocity_10min' as rule_name,
+    count(p2.attempt_id)::int as txn_count_10min
+  from base p1
+  join base p2
+    on p1.user_id = p2.user_id
+   and p2.attempt_ts between p1.attempt_ts - interval '10 minutes' and p1.attempt_ts
+  group by 1,2
+  having count(p2.attempt_id) > 5
+),
+
+high_amount as (
+  select
+    f.attempt_id,
+    f.user_id,
+    'high_amount_deviation' as rule_name,
+    null::int as txn_count_10min
+  from base f
+  join user_avg u on f.user_id = u.user_id
+  where f.amount > u.avg_amount * 6
+),
+
+new_device_high_amount as (
+  select
+    f.attempt_id,
+    f.user_id,
+    'new_device_high_amount' as rule_name,
+    null::int as txn_count_10min
+  from base f
+  join "mena_payments"."analytics_gold"."dim_device" d on f.device_id = d.device_id
+  where d.first_seen > current_date - interval '7 days'
+    and f.amount > 500
+)
+
+select * from velocity
+union all
+select * from high_amount
+union all
+select * from new_device_high_amount
+  );
+  
+[0m03:33:20.311864 [debug] [Thread-4 (]: SQL status: SELECT 9637 in 2.0 seconds
+[0m03:33:20.316775 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:33:20.318425 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_signals"} */
+alter table "mena_payments"."analytics_gold"."risk_signals__dbt_tmp" rename to "risk_signals"
+[0m03:33:20.320607 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:20.322438 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: COMMIT
+[0m03:33:20.323247 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:33:20.324021 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: COMMIT
+[0m03:33:20.326005 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:20.328828 [debug] [Thread-4 (]: Applying DROP to: "mena_payments"."analytics_gold"."risk_signals__dbt_backup"
+[0m03:33:20.329904 [debug] [Thread-4 (]: Using postgres connection "model.mena_payments.risk_signals"
+[0m03:33:20.330712 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_signals"} */
+drop table if exists "mena_payments"."analytics_gold"."risk_signals__dbt_backup" cascade
+[0m03:33:20.331740 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:20.333386 [debug] [Thread-4 (]: On model.mena_payments.risk_signals: Close
+[0m03:33:20.334377 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935ecd9b50>]}
+[0m03:33:20.335495 [info ] [Thread-4 (]: 7 of 9 OK created sql table model analytics_gold.risk_signals .................. [[32mSELECT 9637[0m in 2.20s]
+[0m03:33:20.336894 [debug] [Thread-4 (]: Finished running node model.mena_payments.risk_signals
+[0m03:33:20.338754 [debug] [Thread-2 (]: Began running node model.mena_payments.risk_explanations
+[0m03:33:20.339158 [debug] [Thread-3 (]: Began running node model.mena_payments.risk_scores
+[0m03:33:20.340051 [info ] [Thread-2 (]: 8 of 9 START sql view model analytics_gold.risk_explanations ................... [RUN]
+[0m03:33:20.341221 [info ] [Thread-3 (]: 9 of 9 START sql table model analytics_gold.risk_scores ........................ [RUN]
+[0m03:33:20.342500 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.mena_payments.dim_date, now model.mena_payments.risk_explanations)
+[0m03:33:20.343694 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.mena_payments.fact_payment_attempts, now model.mena_payments.risk_scores)
+[0m03:33:20.344820 [debug] [Thread-2 (]: Began compiling node model.mena_payments.risk_explanations
+[0m03:33:20.345975 [debug] [Thread-3 (]: Began compiling node model.mena_payments.risk_scores
+[0m03:33:20.350541 [debug] [Thread-2 (]: Writing injected SQL for node "model.mena_payments.risk_explanations"
+[0m03:33:20.354241 [debug] [Thread-3 (]: Writing injected SQL for node "model.mena_payments.risk_scores"
+[0m03:33:20.358973 [debug] [Thread-2 (]: Began executing node model.mena_payments.risk_explanations
+[0m03:33:20.360729 [debug] [Thread-3 (]: Began executing node model.mena_payments.risk_scores
+[0m03:33:20.436854 [debug] [Thread-3 (]: Writing runtime sql for node "model.mena_payments.risk_scores"
+[0m03:33:20.440012 [debug] [Thread-2 (]: Writing runtime sql for node "model.mena_payments.risk_explanations"
+[0m03:33:20.448741 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:33:20.450487 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: BEGIN
+[0m03:33:20.453179 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:33:20.454030 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:33:20.456871 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: BEGIN
+[0m03:33:20.459488 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:33:20.462104 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:20.463889 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:33:20.465585 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_explanations"} */
+
+  create view "mena_payments"."analytics_gold"."risk_explanations__dbt_tmp"
+    
+    
+  as (
+    
+
+select
+  attempt_id,
+  user_id,
+  string_agg(rule_name, ', ' order by rule_name) as triggered_rules,
+  count(*) as rule_count
+from "mena_payments"."analytics_gold"."risk_signals"
+group by 1,2
+  );
+[0m03:33:20.466656 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:20.469184 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:33:20.470183 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m03:33:20.471651 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_scores"} */
+
+  
+    
+
+  create  table "mena_payments"."analytics_gold"."risk_scores__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+select
+  attempt_id,
+  user_id,
+  count(*) * 40 as risk_score,
+  case
+    when count(*) >= 3 then 'high'
+    when count(*) = 2 then 'medium'
+    else 'low'
+  end as risk_band
+from "mena_payments"."analytics_gold"."risk_signals"
+group by 1,2
+  );
+  
+[0m03:33:20.476795 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:33:20.479276 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_explanations"} */
+alter table "mena_payments"."analytics_gold"."risk_explanations__dbt_tmp" rename to "risk_explanations"
+[0m03:33:20.480648 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:20.482837 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: COMMIT
+[0m03:33:20.484310 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:33:20.485200 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: COMMIT
+[0m03:33:20.487110 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:20.490322 [debug] [Thread-2 (]: Applying DROP to: "mena_payments"."analytics_gold"."risk_explanations__dbt_backup"
+[0m03:33:20.494600 [debug] [Thread-2 (]: Using postgres connection "model.mena_payments.risk_explanations"
+[0m03:33:20.495089 [debug] [Thread-3 (]: SQL status: SELECT 9272 in 0.0 seconds
+[0m03:33:20.496110 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_explanations"} */
+drop view if exists "mena_payments"."analytics_gold"."risk_explanations__dbt_backup" cascade
+[0m03:33:20.499788 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:33:20.501292 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m03:33:20.501867 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_scores"} */
+alter table "mena_payments"."analytics_gold"."risk_scores__dbt_tmp" rename to "risk_scores"
+[0m03:33:20.503745 [debug] [Thread-2 (]: On model.mena_payments.risk_explanations: Close
+[0m03:33:20.505049 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m03:33:20.505682 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935c2d5190>]}
+[0m03:33:20.508134 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: COMMIT
+[0m03:33:20.510589 [info ] [Thread-2 (]: 8 of 9 OK created sql view model analytics_gold.risk_explanations .............. [[32mCREATE VIEW[0m in 0.16s]
+[0m03:33:20.511895 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:33:20.513529 [debug] [Thread-2 (]: Finished running node model.mena_payments.risk_explanations
+[0m03:33:20.514793 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: COMMIT
+[0m03:33:20.520477 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:20.524676 [debug] [Thread-3 (]: Applying DROP to: "mena_payments"."analytics_gold"."risk_scores__dbt_backup"
+[0m03:33:20.527106 [debug] [Thread-3 (]: Using postgres connection "model.mena_payments.risk_scores"
+[0m03:33:20.528400 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "model.mena_payments.risk_scores"} */
+drop table if exists "mena_payments"."analytics_gold"."risk_scores__dbt_backup" cascade
+[0m03:33:20.529966 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m03:33:20.532027 [debug] [Thread-3 (]: On model.mena_payments.risk_scores: Close
+[0m03:33:20.534208 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8a66f038-54e9-40be-81b6-3ba6644ec480', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935ec56e90>]}
+[0m03:33:20.536144 [info ] [Thread-3 (]: 9 of 9 OK created sql table model analytics_gold.risk_scores ................... [[32mSELECT 9272[0m in 0.19s]
+[0m03:33:20.537724 [debug] [Thread-3 (]: Finished running node model.mena_payments.risk_scores
+[0m03:33:20.540914 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:20.542593 [debug] [MainThread]: On master: BEGIN
+[0m03:33:20.543513 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:33:20.549416 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:20.550857 [debug] [MainThread]: On master: COMMIT
+[0m03:33:20.551750 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:20.552611 [debug] [MainThread]: On master: COMMIT
+[0m03:33:20.553580 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:20.554358 [debug] [MainThread]: On master: Close
+[0m03:33:20.555340 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:33:20.556944 [debug] [MainThread]: Connection 'model.mena_payments.risk_explanations' was properly closed.
+[0m03:33:20.557911 [debug] [MainThread]: Connection 'model.mena_payments.dim_device' was properly closed.
+[0m03:33:20.558850 [debug] [MainThread]: Connection 'model.mena_payments.risk_scores' was properly closed.
+[0m03:33:20.559639 [debug] [MainThread]: Connection 'model.mena_payments.risk_signals' was properly closed.
+[0m03:33:20.561376 [info ] [MainThread]: 
+[0m03:33:20.562900 [info ] [MainThread]: Finished running 8 table models, 1 view model in 0 hours 0 minutes and 3.71 seconds (3.71s).
+[0m03:33:20.565526 [debug] [MainThread]: Command end result
+[0m03:33:20.611137 [info ] [MainThread]: 
+[0m03:33:20.612801 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:33:20.614692 [info ] [MainThread]: 
+[0m03:33:20.616176 [info ] [MainThread]: Done. PASS=9 WARN=0 ERROR=0 SKIP=0 TOTAL=9
+[0m03:33:20.618565 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.455969, "process_user_time": 1.978323, "process_kernel_time": 0.40169, "process_mem_max_rss": "114164", "process_in_blocks": "108776", "process_out_blocks": "1272"}
+[0m03:33:20.619866 [debug] [MainThread]: Command `dbt run` succeeded at 03:33:20.619717 after 4.46 seconds
+[0m03:33:20.620784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9361e70a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f93659d87d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9363917910>]}
+[0m03:33:20.621754 [debug] [MainThread]: Flushing usage events
+[0m03:33:29.874427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11500e74d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11502f4710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114ff3f950>]}
+
+
+============================== 03:33:29.880659 | 938a042f-c4b5-447b-abee-39bb9e52c906 ==============================
+[0m03:33:29.880659 [info ] [MainThread]: Running with dbt=1.8.3
+[0m03:33:29.881814 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/usr/app', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/app/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m03:33:30.023964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '938a042f-c4b5-447b-abee-39bb9e52c906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f11500e5f50>]}
+[0m03:33:30.067393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '938a042f-c4b5-447b-abee-39bb9e52c906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1151cda410>]}
+[0m03:33:30.069246 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m03:33:30.080504 [debug] [MainThread]: checksum: 30bd4080c2bc8dee5936f8f60083ffbe1c906859d0fd965607c2144031479456, vars: {}, profile: , target: , version: 1.8.3
+[0m03:33:30.258477 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m03:33:30.259384 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m03:33:30.264521 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.mena_payments.bronze
+[0m03:33:30.294362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '938a042f-c4b5-447b-abee-39bb9e52c906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114e594550>]}
+[0m03:33:30.417256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '938a042f-c4b5-447b-abee-39bb9e52c906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114e292490>]}
+[0m03:33:30.418654 [info ] [MainThread]: Found 9 models, 5 data tests, 415 macros
+[0m03:33:30.420027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '938a042f-c4b5-447b-abee-39bb9e52c906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114e876b10>]}
+[0m03:33:30.423650 [info ] [MainThread]: 
+[0m03:33:30.425624 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m03:33:30.431843 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments_analytics_gold'
+[0m03:33:30.433755 [debug] [ThreadPool]: Acquiring new postgres connection 'list_mena_payments_analytics_silver'
+[0m03:33:30.481789 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_gold"
+[0m03:33:30.482351 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_silver"
+[0m03:33:30.483512 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: BEGIN
+[0m03:33:30.484665 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: BEGIN
+[0m03:33:30.485733 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:33:30.486722 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:33:30.494839 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.495393 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.496546 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_gold"
+[0m03:33:30.497684 [debug] [ThreadPool]: Using postgres connection "list_mena_payments_analytics_silver"
+[0m03:33:30.498853 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_analytics_gold"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_gold'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_gold'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_gold'
+  
+[0m03:33:30.499921 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "list_mena_payments_analytics_silver"} */
+select
+      'mena_payments' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics_silver'
+    union all
+    select
+      'mena_payments' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics_silver'
+    union all
+    select
+      'mena_payments' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics_silver'
+  
+[0m03:33:30.504090 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:33:30.504746 [debug] [ThreadPool]: SQL status: SELECT 8 in 0.0 seconds
+[0m03:33:30.507361 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: ROLLBACK
+[0m03:33:30.509506 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: ROLLBACK
+[0m03:33:30.510980 [debug] [ThreadPool]: On list_mena_payments_analytics_silver: Close
+[0m03:33:30.512049 [debug] [ThreadPool]: On list_mena_payments_analytics_gold: Close
+[0m03:33:30.519207 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:30.520619 [debug] [MainThread]: On master: BEGIN
+[0m03:33:30.521415 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:33:30.526760 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.527992 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:30.529131 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m03:33:30.536601 [debug] [MainThread]: SQL status: SELECT 3 in 0.0 seconds
+[0m03:33:30.539431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '938a042f-c4b5-447b-abee-39bb9e52c906', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114d066050>]}
+[0m03:33:30.541147 [debug] [MainThread]: On master: ROLLBACK
+[0m03:33:30.542242 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:30.543054 [debug] [MainThread]: On master: BEGIN
+[0m03:33:30.544076 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.544824 [debug] [MainThread]: On master: COMMIT
+[0m03:33:30.545549 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:30.546247 [debug] [MainThread]: On master: COMMIT
+[0m03:33:30.547080 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:30.547809 [debug] [MainThread]: On master: Close
+[0m03:33:30.548913 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m03:33:30.550357 [info ] [MainThread]: 
+[0m03:33:30.560037 [debug] [Thread-1 (]: Began running node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:33:30.560510 [debug] [Thread-2 (]: Began running node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:33:30.560999 [debug] [Thread-3 (]: Began running node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:33:30.561416 [debug] [Thread-4 (]: Began running node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:33:30.561933 [info ] [Thread-1 (]: 1 of 5 START test not_null_dim_user_user_id .................................... [RUN]
+[0m03:33:30.563010 [info ] [Thread-2 (]: 2 of 5 START test not_null_fact_payment_attempts_attempt_id .................... [RUN]
+[0m03:33:30.564890 [info ] [Thread-3 (]: 3 of 5 START test not_null_risk_scores_attempt_id .............................. [RUN]
+[0m03:33:30.566581 [info ] [Thread-4 (]: 4 of 5 START test unique_dim_user_user_id ...................................... [RUN]
+[0m03:33:30.568213 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_mena_payments_analytics_gold, now test.mena_payments.not_null_dim_user_user_id.4b202b08a3)
+[0m03:33:30.570835 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_mena_payments_analytics_silver, now test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa)
+[0m03:33:30.573196 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20'
+[0m03:33:30.574821 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.mena_payments.unique_dim_user_user_id.eff0a2a278'
+[0m03:33:30.577878 [debug] [Thread-1 (]: Began compiling node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:33:30.579768 [debug] [Thread-2 (]: Began compiling node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:33:30.581089 [debug] [Thread-3 (]: Began compiling node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:33:30.582564 [debug] [Thread-4 (]: Began compiling node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:33:30.603112 [debug] [Thread-1 (]: Writing injected SQL for node "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:33:30.607132 [debug] [Thread-2 (]: Writing injected SQL for node "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:33:30.612648 [debug] [Thread-3 (]: Writing injected SQL for node "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:33:30.620251 [debug] [Thread-4 (]: Writing injected SQL for node "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:33:30.628745 [debug] [Thread-1 (]: Began executing node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:33:30.629741 [debug] [Thread-3 (]: Began executing node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:33:30.630863 [debug] [Thread-2 (]: Began executing node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:33:30.636767 [debug] [Thread-4 (]: Began executing node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:33:30.647950 [debug] [Thread-1 (]: Writing runtime sql for node "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:33:30.651143 [debug] [Thread-3 (]: Writing runtime sql for node "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:33:30.654593 [debug] [Thread-2 (]: Writing runtime sql for node "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:33:30.659537 [debug] [Thread-4 (]: Writing runtime sql for node "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:33:30.665496 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:33:30.667122 [debug] [Thread-2 (]: Using postgres connection "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:33:30.668009 [debug] [Thread-1 (]: Using postgres connection "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:33:30.669034 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: BEGIN
+[0m03:33:30.669718 [debug] [Thread-4 (]: Using postgres connection "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:33:30.670587 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: BEGIN
+[0m03:33:30.671414 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: BEGIN
+[0m03:33:30.672278 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m03:33:30.673026 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: BEGIN
+[0m03:33:30.674275 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m03:33:30.675685 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m03:33:30.677901 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m03:33:30.683529 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.685387 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.686090 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"
+[0m03:33:30.687062 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.687456 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.687948 [debug] [Thread-2 (]: Using postgres connection "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"
+[0m03:33:30.689066 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select attempt_id
+from "mena_payments"."analytics_gold"."risk_scores"
+where attempt_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m03:33:30.690164 [debug] [Thread-1 (]: Using postgres connection "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"
+[0m03:33:30.691616 [debug] [Thread-4 (]: Using postgres connection "test.mena_payments.unique_dim_user_user_id.eff0a2a278"
+[0m03:33:30.692895 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select attempt_id
+from "mena_payments"."analytics_gold"."fact_payment_attempts"
+where attempt_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m03:33:30.694532 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.not_null_dim_user_user_id.4b202b08a3"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select user_id
+from "mena_payments"."analytics_gold"."dim_user"
+where user_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m03:33:30.695290 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:33:30.695817 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.unique_dim_user_user_id.eff0a2a278"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    user_id as unique_field,
+    count(*) as n_records
+
+from "mena_payments"."analytics_gold"."dim_user"
+where user_id is not null
+group by user_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m03:33:30.702404 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: ROLLBACK
+[0m03:33:30.703009 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:33:30.705553 [debug] [Thread-3 (]: On test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20: Close
+[0m03:33:30.708354 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: ROLLBACK
+[0m03:33:30.709027 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:33:30.710812 [info ] [Thread-3 (]: 3 of 5 PASS not_null_risk_scores_attempt_id .................................... [[32mPASS[0m in 0.14s]
+[0m03:33:30.711459 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:33:30.712433 [debug] [Thread-1 (]: On test.mena_payments.not_null_dim_user_user_id.4b202b08a3: Close
+[0m03:33:30.714346 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: ROLLBACK
+[0m03:33:30.715694 [debug] [Thread-3 (]: Finished running node test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20
+[0m03:33:30.718227 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: ROLLBACK
+[0m03:33:30.719893 [info ] [Thread-1 (]: 1 of 5 PASS not_null_dim_user_user_id .......................................... [[32mPASS[0m in 0.15s]
+[0m03:33:30.721132 [debug] [Thread-4 (]: On test.mena_payments.unique_dim_user_user_id.eff0a2a278: Close
+[0m03:33:30.722406 [debug] [Thread-3 (]: Began running node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:33:30.723895 [debug] [Thread-2 (]: On test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa: Close
+[0m03:33:30.725003 [debug] [Thread-1 (]: Finished running node test.mena_payments.not_null_dim_user_user_id.4b202b08a3
+[0m03:33:30.726735 [info ] [Thread-4 (]: 4 of 5 PASS unique_dim_user_user_id ............................................ [[32mPASS[0m in 0.15s]
+[0m03:33:30.727872 [info ] [Thread-3 (]: 5 of 5 START test unique_fact_payment_attempts_attempt_id ...................... [RUN]
+[0m03:33:30.730218 [info ] [Thread-2 (]: 2 of 5 PASS not_null_fact_payment_attempts_attempt_id .......................... [[32mPASS[0m in 0.16s]
+[0m03:33:30.733190 [debug] [Thread-4 (]: Finished running node test.mena_payments.unique_dim_user_user_id.eff0a2a278
+[0m03:33:30.735030 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.mena_payments.not_null_risk_scores_attempt_id.9a5899ab20, now test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930)
+[0m03:33:30.736566 [debug] [Thread-2 (]: Finished running node test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa
+[0m03:33:30.738160 [debug] [Thread-3 (]: Began compiling node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:33:30.744562 [debug] [Thread-3 (]: Writing injected SQL for node "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:33:30.753194 [debug] [Thread-3 (]: Began executing node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:33:30.756452 [debug] [Thread-3 (]: Writing runtime sql for node "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:33:30.765201 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:33:30.766910 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: BEGIN
+[0m03:33:30.768770 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m03:33:30.777853 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.779246 [debug] [Thread-3 (]: Using postgres connection "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"
+[0m03:33:30.780054 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: /* {"app": "dbt", "dbt_version": "1.8.3", "profile_name": "mena_payments", "target_name": "dev", "node_id": "test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    attempt_id as unique_field,
+    count(*) as n_records
+
+from "mena_payments"."analytics_gold"."fact_payment_attempts"
+where attempt_id is not null
+group by attempt_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m03:33:30.925318 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m03:33:30.928619 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: ROLLBACK
+[0m03:33:30.931043 [debug] [Thread-3 (]: On test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930: Close
+[0m03:33:30.933356 [info ] [Thread-3 (]: 5 of 5 PASS unique_fact_payment_attempts_attempt_id ............................ [[32mPASS[0m in 0.20s]
+[0m03:33:30.935700 [debug] [Thread-3 (]: Finished running node test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930
+[0m03:33:30.940045 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:30.941597 [debug] [MainThread]: On master: BEGIN
+[0m03:33:30.943081 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:33:30.949986 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:33:30.951520 [debug] [MainThread]: On master: COMMIT
+[0m03:33:30.952587 [debug] [MainThread]: Using postgres connection "master"
+[0m03:33:30.953697 [debug] [MainThread]: On master: COMMIT
+[0m03:33:30.955706 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:33:30.958052 [debug] [MainThread]: On master: Close
+[0m03:33:30.959709 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:33:30.960915 [debug] [MainThread]: Connection 'test.mena_payments.not_null_dim_user_user_id.4b202b08a3' was properly closed.
+[0m03:33:30.962241 [debug] [MainThread]: Connection 'test.mena_payments.not_null_fact_payment_attempts_attempt_id.92d94272aa' was properly closed.
+[0m03:33:30.963563 [debug] [MainThread]: Connection 'test.mena_payments.unique_fact_payment_attempts_attempt_id.1cc9418930' was properly closed.
+[0m03:33:30.964626 [debug] [MainThread]: Connection 'test.mena_payments.unique_dim_user_user_id.eff0a2a278' was properly closed.
+[0m03:33:30.965800 [info ] [MainThread]: 
+[0m03:33:30.967944 [info ] [MainThread]: Finished running 5 data tests in 0 hours 0 minutes and 0.54 seconds (0.54s).
+[0m03:33:30.970661 [debug] [MainThread]: Command end result
+[0m03:33:31.015159 [info ] [MainThread]: 
+[0m03:33:31.016636 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m03:33:31.018112 [info ] [MainThread]: 
+[0m03:33:31.019482 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m03:33:31.021363 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 1.1947124, "process_user_time": 1.752536, "process_kernel_time": 0.231657, "process_mem_max_rss": "117164", "process_in_blocks": "2216", "process_out_blocks": "1272"}
+[0m03:33:31.022770 [debug] [MainThread]: Command `dbt test` succeeded at 03:33:31.022592 after 1.20 seconds
+[0m03:33:31.023769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1153fbc510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f114cf81a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f115404cbd0>]}
+[0m03:33:31.024666 [debug] [MainThread]: Flushing usage events

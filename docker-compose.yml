@@ -1,0 +1,69 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: mena_pg
+    environment:
+      POSTGRES_DB: mena_payments
+      POSTGRES_USER: mena
+      POSTGRES_PASSWORD: mena
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  adminer:
+    image: adminer
+    container_name: mena_adminer
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.8.2
+    container_name: mena_dbt
+    depends_on:
+      - postgres
+    volumes:
+      - ./dbt/mena_payments:/usr/app
+    working_dir: /usr/app
+    environment:
+      DBT_PROFILES_DIR: /usr/app
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: docker/streamlit.Dockerfile
+    container_name: mena_streamlit
+    depends_on:
+      - postgres
+    ports:
+      - "8501:8501"
+    environment:
+      PG_HOST: postgres
+      PG_PORT: "5432"
+      PG_DB: mena_payments
+      PG_USER: mena
+      PG_PASSWORD: mena
+    volumes:
+      - ./streamlit_app:/app/streamlit_app
+  loader:
+    build:
+      context: .
+      dockerfile: docker/loader.Dockerfile
+    container_name: mena_loader
+    depends_on:
+      - postgres
+    environment:
+      PG_HOST: postgres
+      PG_PORT: "5432"
+      PG_DB: mena_payments
+      PG_USER: mena
+      PG_PASSWORD: mena
+    volumes:
+      - .:/app
+    command: python -m src.loader.load_parquet_to_postgres
+
+volumes:
+  pgdata:

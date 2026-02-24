@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: fact_payment_attempts
+    columns:
+      - name: attempt_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_user
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+          - unique
+
+  - name: risk_scores
+    columns:
+      - name: attempt_id
+        tests:
+          - not_null

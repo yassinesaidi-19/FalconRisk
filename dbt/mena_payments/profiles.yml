@@ -1,0 +1,12 @@
+mena_payments:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: mena
+      password: mena
+      port: 5432
+      dbname: mena_payments
+      schema: analytics
+      threads: 4
